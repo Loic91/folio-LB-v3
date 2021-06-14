@@ -1,0 +1,355 @@
+@font-face{
+    font-family: "New York"; 
+    src: url('./fonts/New York/NewYork.otf') format('opentype');
+}
+@font-face{
+    font-family: "ApexMk3"; 
+    src: url('./FONTS/ApexMk3/Apex\ Mk3-Medium.otf') format('opentype');
+}
+@font-face{
+    font-family: "GRIFTER"; 
+    src: url('./FONTS/GRIFTER/GRIFTER™\ Bold.otf') format('opentype');
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+
+.container {
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #f0f1ec;
+	font-family: "Mak";
+}
+
+.display_blocks{
+    display: flex;
+}
+
+.blocks {
+	display: flex;
+	font-size: 4em;
+	color: #8d785b83;
+    margin: 10px;
+}
+
+.circle_shape {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 600px;
+	height: 600px;
+	border: 1px solid #8d785b83;
+	border-radius: 100%;
+}
+@media screen and (min-width: 769px){
+    .blocks {
+        display: flex;
+        font-size: 140px;
+    }
+}
+
+
+/* .circle_shape_2 {
+	position: absolute;
+	top: 64%;
+	left: 80%;
+	transform: translate(-50%, -50%);
+	width: 240px;
+	height: 240px;
+	background: #a83e0c;
+	border-radius: 100%;
+}
+
+.circle_shape_3 {
+	position: absolute;
+	top: 30%;
+	left: 20%;
+	transform: translate(-50%, -50%);
+	width: 140px;
+	height: 140px;
+	background: #a83e0c;
+	border-radius: 100%;
+	z-index: 2;
+} */
+
+.wrapper-img {
+	overflow: hidden;
+	position: absolute;
+	top: 35% !important;
+	right: 18%;
+	width: 30%;
+	height: 90vh;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.box {
+	background: #202217;
+	opacity: 1;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	z-index: 0;
+}
+
+.site_logo {
+	position: fixed;
+	left: 50%;
+	transform: translateX(-50%);
+	font-family: "Mak";
+	font-size: 24px;
+	line-height: 100px;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.navbar {
+	position: fixed;
+	width: 100%;
+	height: 100px;
+	padding: 0 40px;
+	display: flex;
+	justify-content: space-between;
+	font-family: Arial, Helvetica, sans-serif !important;
+	text-transform: uppercase;
+	line-height: 100px;
+	color: #000000;
+}
+
+.site_menu {
+	display: flex;
+    color: black;
+}
+
+.menu_item {
+	margin-left: 60px;
+}
+
+.showreel {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding: 40px;
+	font-family: Arial, Helvetica, sans-serif !important;
+	text-transform: uppercase;
+	color: #8d785b;
+	text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+	.navbar {
+		display: none;
+	}
+}
+
+/* ============================================= */
+
+#front__1{
+    font-family: "GRIFTER";
+    /* font-family: 'Mukta', sans-serif; */
+    font-weight: lighter;
+    font-size: 12em; 
+    color: rgb(255, 0, 0);
+    z-index: 2;  
+    
+}
+.text__front{
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 193px;
+    z-index: 1;
+
+    padding-top: 10px;
+    margin-top: 150px;
+    text-align: center;
+}
+
+#dev__1{
+    font-family: "GRIFTER";
+    /* font-family: 'Mukta', sans-serif; */
+    font-weight: lighter;
+    font-size: 12em; 
+    color: rgb(255, 0, 0);
+    z-index: 2;  
+    
+}
+.text__dev{
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 232px;
+    z-index: 1;
+
+    padding-top: 50px;
+    margin-top: 250px;
+    text-align: center;
+}
+@media screen and (min-width: 769px){
+    .text__front__mobile{
+        display: none;
+    }
+    .text__front__mobile2{
+        display: none;
+    }
+    #front__1__mobile{
+        display: none;
+    }
+    #front__1__mobile2{
+        display: none;
+    }
+    .text__dev__mobile{
+        display: none;
+    }
+    #dev__1__mobile{
+        display: none;
+    }
+    .text__dev__mobile2{
+        display: none;
+    }
+    #dev__1__mobile2{
+        display: none;
+    }
+    .text__dev__mobile3{
+        display: none;
+    }
+    #dev__1__mobile3{
+        display: none;
+    }
+}
+@media screen and (max-width: 768px){
+    .text__front{
+        display: none;
+    }
+    #front__1{
+        display: none;
+    }
+    .text__dev{
+        display: none;
+    }
+    #dev__1{
+        display: none;
+    }
+    /* ============== */
+    #front__1__mobile{
+        font-family: "GRIFTER";
+        /* font-family: 'Mukta', sans-serif; */
+        font-weight: lighter;
+        font-size: 6.5em; 
+        color: rgb(255, 0, 0);
+        z-index: 2;  
+    }
+    .text__front__mobile{
+        position: absolute;
+        overflow: hidden;
+        width: 100%;
+        height: 109px;
+        z-index: 1;
+    
+        padding-top: 10px;
+        margin-top: 150px;
+        text-align: left;
+    }
+    #front__1__mobile2{
+        font-family: "GRIFTER";
+        /* font-family: 'Mukta', sans-serif; */
+        font-weight: lighter;
+        font-size: 6.5em; 
+        color: rgb(255, 0, 0);
+        z-index: 2;  
+    }
+    .text__front__mobile2{
+        position: absolute;
+        overflow: hidden;
+        width: 100%;
+        height: 109px;
+        z-index: 1;
+    
+        padding-top: 10px;
+        margin-top: 230px;
+        text-align: right;
+    }
+    
+    #dev__1__mobile{
+        font-family: "GRIFTER";
+        /* font-family: 'Mukta', sans-serif; */
+        font-weight: lighter;
+        font-size: 6.5em; 
+        color: rgb(255, 0, 0);
+        z-index: 2;  
+        
+    }
+    .text__dev__mobile{
+        position: absolute;
+        overflow: hidden;
+        width: 100%;
+        height: 148px;
+        z-index: 1;
+    
+        padding-top: 50px;
+        margin-top: 270px;
+        text-align: left;
+    }
+    #dev__1__mobile2{
+        font-family: "GRIFTER";
+        /* font-family: 'Mukta', sans-serif; */
+        font-weight: lighter;
+        font-size: 6.5em; 
+        color: rgb(255, 0, 0);
+        z-index: 2;  
+        
+    }
+    .text__dev__mobile2{
+        position: absolute;
+        overflow: hidden;
+        width: 100%;
+        height: 148px;
+        z-index: 1;
+    
+        padding-top: 50px;
+        margin-top: 350px;
+        text-align: right;
+    }
+    #dev__1__mobile3{
+        font-family: "GRIFTER";
+        /* font-family: 'Mukta', sans-serif; */
+        font-weight: lighter;
+        font-size: 6.5em; 
+        color: rgb(255, 0, 0);
+        z-index: 2;  
+        
+    }
+    .text__dev__mobile3{
+        position: absolute;
+        overflow: hidden;
+        width: 100%;
+        height: 148px;
+        z-index: 1;
+    
+        padding-top: 50px;
+        margin-top: 430px;
+        text-align: right;
+    }
+}
