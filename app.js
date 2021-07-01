@@ -273,7 +273,7 @@ TweenMax.to("#front__1", 2.6, {
     // opacity: 0,
     y: '60%',
     ease: Expo.easeInOut,
-    delay: 6.2,
+    delay: 6.4,
 });
 // ******
 
