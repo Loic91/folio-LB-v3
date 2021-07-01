@@ -10,6 +10,8 @@
     font-family: "GRIFTER"; 
     src: url('./FONTS/GRIFTER/GRIFTER™\ Bold.otf') format('opentype');
 }
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+
 
 * {
 	margin: 0;
@@ -23,6 +25,7 @@ body {
 	height: 100vh;
 	overflow: hidden;
 }
+
 
 
 .container {
@@ -39,8 +42,33 @@ body {
 .display_blocks{
     display: flex;
 }
+@media screen and (max-width: 599px){
+    .display_blocks{
+        display: none;
+    }
+    .display_blocks__mobile{
+        display: flex;
+    }
+    .blocks{
+        display: none;
+    }
+    .blocks__mobile {
+        font-family: "GRIFTER";
+        display: flex;
+        font-size: 3em;
+        color: #8d785b83;
+        margin: 10px;
+    }
+}
+@media screen and (min-width: 600px){
+    .display_blocks__mobile{
+        display: none;
+    }
+}
+
 
 .blocks {
+    font-family: "GRIFTER";
 	display: flex;
 	font-size: 4em;
 	color: #8d785b83;
@@ -114,16 +142,41 @@ img {
 	z-index: 0;
 }
 
-.site_logo {
+
+/* .site_logo {
 	position: fixed;
 	left: 50%;
 	transform: translateX(-50%);
-	font-family: "Mak";
-	font-size: 24px;
+	line-height: 100px;
+	font-family: 'Mukta', sans-serif;
 	line-height: 100px;
 	text-transform: uppercase;
 	color: #000000;
+    height: 5px;
+} */
+
+
+.main_name{
+    position: fixed;
+    font-family: 'Mukta', sans-serif;
+
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+
+    width: 110%;
+    height: 49px;
+    overflow: hidden;
+    padding-top: 10px;
 }
+.name_one h1{
+    font-size: 2em;
+    font-weight: lighter;
+    margin-top: 10px;
+    color: rgb(102, 80, 80);
+}
+
+
 
 .navbar {
 	position: fixed;
@@ -175,11 +228,11 @@ img {
     z-index: 2;  
     
 }
-.text__front{
+.text__dev{
     position: absolute;
     overflow: hidden;
     width: 100%;
-    height: 193px;
+    height: 162px;
     z-index: 1;
 
     padding-top: 10px;
@@ -191,12 +244,12 @@ img {
     font-family: "GRIFTER";
     /* font-family: 'Mukta', sans-serif; */
     font-weight: lighter;
-    font-size: 12em; 
+    font-size: 10em; 
     color: rgb(255, 0, 0);
     z-index: 2;  
     
 }
-.text__dev{
+.text__front{
     position: absolute;
     overflow: hidden;
     width: 100%;
@@ -214,7 +267,7 @@ img {
     .text__front__mobile2{
         display: none;
     }
-    #front__1__mobile{
+    #front__1__mobile1{
         display: none;
     }
     #front__1__mobile2{
@@ -253,7 +306,7 @@ img {
         display: none;
     }
     /* ============== */
-    #front__1__mobile{
+    #front__1__mobile1{
         font-family: "GRIFTER";
         /* font-family: 'Mukta', sans-serif; */
         font-weight: lighter;
