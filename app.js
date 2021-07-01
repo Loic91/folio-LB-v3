@@ -169,6 +169,14 @@ TweenMax.to(".block_11__mobile", 1.9, {
 
 
 
+
+
+
+
+
+
+
+
 // CERCLE ET MENU ***************************************************************************************************************************************************************************************************************************************************************************************************************
 
 
@@ -245,7 +253,7 @@ TweenMax.from("#dev__1", 2.6, {
     ease: Expo.easeInOut,
     delay: 2.8,
 });
-// Disparition du mot
+// ***Disparition du mot
 TweenMax.to("#dev__1", 2.6, {
     // opacity: 0,
     y: '60%',
@@ -260,7 +268,7 @@ TweenMax.from("#front__1", 2.6, {
     ease: Expo.easeInOut,
     delay: 3.6,
 });
-// Disparition du mot
+// ***Disparition du mot
 TweenMax.to("#front__1", 2.6, {
     // opacity: 0,
     y: '60%',
@@ -299,3 +307,36 @@ TweenMax.from("#front__1__mobile2", 2.6, {
     ease: Expo.easeInOut,
     delay: 4.8,
 });
+
+// ***Disparition du mot
+TweenMax.to("#dev__1__mobile", 2.6, {
+    // opacity: 0,
+    y: '60%',
+    ease: Expo.easeInOut,
+    delay: 6.6,
+});
+TweenMax.to("#dev__1__mobile2", 2.6, {
+    // opacity: 0,
+    y: '60%',
+    ease: Expo.easeInOut,
+    delay: 7.2,
+});
+TweenMax.to("#dev__1__mobile3", 2.6, {
+    // opacity: 0,
+    y: '60%',
+    ease: Expo.easeInOut,
+    delay: 7.8,
+});
+TweenMax.to("#front__1__mobile1", 2.6, {
+    // opacity: 0,
+    y: '60%',
+    ease: Expo.easeInOut,
+    delay: 8.4,
+});
+TweenMax.to("#front__1__mobile2", 2.6, {
+    // opacity: 0,
+    y: '60%',
+    ease: Expo.easeInOut,
+    delay: 8.8,
+});
+// ******
