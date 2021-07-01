@@ -35,7 +35,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: #f0f1ec;
+	background: #f1f0ec;
 	font-family: "Mak";
 }
 
@@ -57,7 +57,7 @@ body {
         font-family: "GRIFTER";
         display: flex;
         font-size: 3em;
-        color: #8d785b42;
+        color: #8d785b34;
         margin: 10px;
     }
 }
@@ -72,7 +72,7 @@ body {
     font-family: "GRIFTER";
 	display: flex;
 	font-size: 4em;
-	color: #8d785b83;
+	color: #8d785b34;
     margin: 10px;
 }
 
@@ -225,7 +225,7 @@ img {
     /* font-family: 'Mukta', sans-serif; */
     font-weight: lighter;
     font-size: 12em; 
-    color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
     z-index: 2;  
     
 }
@@ -246,7 +246,7 @@ img {
     /* font-family: 'Mukta', sans-serif; */
     font-weight: lighter;
     font-size: 10em; 
-    color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
     z-index: 2;  
     
 }
@@ -312,7 +312,7 @@ img {
         /* font-family: 'Mukta', sans-serif; */
         font-weight: lighter;
         font-size: 6.5em; 
-        color: rgb(255, 0, 0);
+        color: rgb(0, 0, 0);
         z-index: 2;  
     }
     .text__front__mobile{
@@ -331,7 +331,7 @@ img {
         /* font-family: 'Mukta', sans-serif; */
         font-weight: lighter;
         font-size: 6.5em; 
-        color: rgb(255, 0, 0);
+        color: rgb(0, 0, 0);
         z-index: 2;  
     }
     .text__front__mobile2{
@@ -351,7 +351,7 @@ img {
         /* font-family: 'Mukta', sans-serif; */
         font-weight: lighter;
         font-size: 6.5em; 
-        color: rgb(255, 0, 0);
+        color: rgb(0, 0, 0);
         z-index: 2;  
     }
     .text__dev__mobile{
@@ -370,7 +370,7 @@ img {
         /* font-family: 'Mukta', sans-serif; */
         font-weight: lighter;
         font-size: 6.5em; 
-        color: rgb(255, 0, 0);
+        color: rgb(0, 0, 0);
         z-index: 2;  
         
     }
@@ -390,7 +390,7 @@ img {
         /* font-family: 'Mukta', sans-serif; */
         font-weight: lighter;
         font-size: 6.5em; 
-        color: rgb(255, 0, 0);
+        color: rgb(0, 0, 0);
         z-index: 2;  
         
     }
