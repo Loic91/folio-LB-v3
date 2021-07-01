@@ -186,7 +186,7 @@ TweenMax.to(".block_11__mobile", 1.9, {
 //     ease: Expo.easeInOut,
 // });
 
-TweenMax.from(".circle_shape", 3.9, {
+TweenMax.from(".circle_shape", 4.2, {
     scale: "0",
     ease: Expo.easeInOut,
 });
@@ -214,15 +214,15 @@ TweenMax.from(".navbar > div", 1.6, {
 gsap.from('.name_one', 2.5, {
     y: '100%',
     ease: Expo.easeInOut,
-    delay: 2.5
+    delay: 1.4
 })
 
-TweenMax.from(".showreel", 1.6, {
-    opacity: 0,
-    y: 40,
-    ease: Expo.easeInOut,
-    delay: 0.6,
-});
+// TweenMax.from(".showreel", 1.6, {
+//     opacity: 0,
+//     y: 40,
+//     ease: Expo.easeInOut,
+//     delay: 0.6,
+// });
 TweenMax.staggerFrom(
     ".site_menu > div",
     1,
