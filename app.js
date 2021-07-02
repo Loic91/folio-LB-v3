@@ -8,7 +8,7 @@ TweenMax.to(".block_1", 1.9, {
     delay: 0.9,
 });
 TweenMax.to(".block_1__mobile", 1.9, {
-    x: "10",
+    x: "30",
     y: "-150",
     scale: "2.4",
     ease: Expo.easeInOut,
@@ -23,7 +23,7 @@ TweenMax.to(".block_2", 1.9, {
     delay: 0.9,
 });
 TweenMax.to(".block_2__mobile", 1.9, {
-    x: "180",
+    x: "230",
     y: "310",
     scale: "1.2",
     ease: Expo.easeInOut,
@@ -54,7 +54,7 @@ TweenMax.to(".block_4", 1.9, {
 });
 TweenMax.to(".block_4__mobile", 1.9, {
     x: "230",
-    y: "250",
+    y: "130",
     scale: "0.8",
     ease: Expo.easeInOut,
     delay: 0.9,
@@ -84,7 +84,7 @@ TweenMax.to(".block_6", 1.9, {
 });
 TweenMax.to(".block_6__mobile", 1.9, {
     x: "-10",
-    y: "300",
+    y: "200",
     scale: "2.4",
     ease: Expo.easeInOut,
     delay: 0.9,
@@ -129,7 +129,7 @@ TweenMax.to(".block_9", 1.9, {
 });
 TweenMax.to(".block_9__mobile", 1.9, {
     x: "-100",
-    y: "150",
+    y: "50",
     scale: "0.5",
     ease: Expo.easeInOut,
     delay: 0.9,
@@ -143,9 +143,9 @@ TweenMax.to(".block_10", 1.9, {
     delay: 0.9,
 });
 TweenMax.to(".block_10__mobile", 1.9, {
-    x: "-150",
-    y: "-40",
-    scale: "0.9",
+    x: "-10",
+    y: "-10",
+    scale: "0.8",
     ease: Expo.easeInOut,
     delay: 0.9,
 });
