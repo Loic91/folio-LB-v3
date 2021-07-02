@@ -1,7 +1,7 @@
 // MOT ANIMATION ***************************************************************************************************************************************************************************************************************************************************************************************************************
 
 TweenMax.to(".block_1", 1.9, {
-    x: "-90",
+    x: "0",
     y: "-100",
     scale: "2.4",
     ease: Expo.easeInOut,
@@ -76,14 +76,14 @@ TweenMax.to(".block_5__mobile", 1.9, {
 });
 // ******************
 TweenMax.to(".block_6", 1.9, {
-    x: "500",
-    y: "200",
+    x: "600",
+    y: "100",
     scale: "2.4",
     ease: Expo.easeInOut,
     delay: 0.9,
 });
 TweenMax.to(".block_6__mobile", 1.9, {
-    x: "-10",
+    x: "50",
     y: "200",
     scale: "2.4",
     ease: Expo.easeInOut,
@@ -247,8 +247,41 @@ gsap.from(".image__5", {
 gsap.from('.box_color__5', 2.5, {
     y: '100%',
     ease: Expo.easeInOut,
+    delay: 4.7
+})
+// **************
+gsap.from(".image__6", {
+    y:80, 
+    stagger:0.05, 
+    opacity:0, 
+    delay: 2.5,
+    duration:3.5, 
+    ease:"power3.out"
+})
+// Disparition 
+gsap.from('.box_color__6', 2.5, {
+    y: '100%',
+    ease: Expo.easeInOut,
     delay: 4.5
 })
+// **************
+gsap.from(".image__7", {
+    y:80, 
+    stagger:0.05, 
+    opacity:0, 
+    delay: 2.5,
+    duration:3.5, 
+    ease:"power3.out"
+})
+// Disparition 
+gsap.from('.box_color__7', 2.5, {
+    y: '100%',
+    ease: Expo.easeInOut,
+    delay: 4.6
+})
+
+
+
 
 
 
