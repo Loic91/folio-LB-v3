@@ -35,8 +35,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: #f1f0ec;
-	font-family: "Mak";
+	background: #8d785b;
 }
 
 .display_blocks{
@@ -47,8 +46,9 @@ body {
         display: none;
     }
     .display_blocks__mobile{
-        display: flex;
+        /* display: flex; */
         margin-top: -100px;
+        text-align: center;
     }
     .blocks{
         display: none;
@@ -57,7 +57,7 @@ body {
         font-family: "GRIFTER";
         display: flex;
         font-size: 3em;
-        color: #8d785b34;
+        color: #e9d4b7;
         margin: 10px;
     }
 }
@@ -72,8 +72,9 @@ body {
     font-family: "GRIFTER";
 	display: flex;
 	font-size: 4em;
-	color: #8d785b34;
+	color: #e9d4b7;
     margin: 10px;
+    z-index: 99;
 }
 
 .circle_shape {
@@ -83,8 +84,9 @@ body {
 	transform: translate(-50%, -50%);
 	width: 600px;
 	height: 600px;
-	border: 1px solid #8d785b83;
+	border: 1px solid #cfc2af;
 	border-radius: 100%;
+    z-index: 100;
 }
 @media screen and (min-width: 769px){
     .blocks {
@@ -94,67 +96,7 @@ body {
 }
 
 
-/* .circle_shape_2 {
-	position: absolute;
-	top: 64%;
-	left: 80%;
-	transform: translate(-50%, -50%);
-	width: 240px;
-	height: 240px;
-	background: #a83e0c;
-	border-radius: 100%;
-}
 
-.circle_shape_3 {
-	position: absolute;
-	top: 30%;
-	left: 20%;
-	transform: translate(-50%, -50%);
-	width: 140px;
-	height: 140px;
-	background: #a83e0c;
-	border-radius: 100%;
-	z-index: 2;
-} */
-
-.wrapper-img {
-	overflow: hidden;
-	position: absolute;
-	top: 35% !important;
-	right: 18%;
-	width: 30%;
-	height: 90vh;
-}
-
-img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-}
-
-.box {
-	background: #202217;
-	opacity: 1;
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	right: 0;
-	left: 0;
-	z-index: 0;
-}
-
-
-/* .site_logo {
-	position: fixed;
-	left: 50%;
-	transform: translateX(-50%);
-	line-height: 100px;
-	font-family: 'Mukta', sans-serif;
-	line-height: 100px;
-	text-transform: uppercase;
-	color: #000000;
-    height: 5px;
-} */
 
 
 .main_name{
@@ -427,4 +369,194 @@ img {
     right: 0;
     margin-right: 50px;
     margin-bottom: 30px;
+}
+
+/* IMAGES ***************************************************************************************************************************************************************************************** */
+
+.image__1 {
+    background-image: url("./img/autri-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+
+    width: 150px;
+    height:100%;
+    /* z-index: -1; */
+
+    margin-left: -950px;
+} 
+.box_color__1 {
+    /* background-color: #8d785b; */
+    background-color: #8d785b;
+    overflow: hidden;
+    width: 150px;
+    height: 200px;
+}
+@media screen and (max-width: 600px){
+    .image__1 {
+        width: 50px;
+        height:100%;
+        /* z-index: -1; */
+    
+        margin-left: 100px;
+    } 
+    .box_color__1 {
+        /* background-color: #8d785b; */
+        background-color: #8d785b;
+        overflow: hidden;
+        width: 50px;
+        height: 80px;
+    }
+}
+
+.image__2 {
+    background-image: url("./img/alex-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+
+    width: 100px;
+    height:100%;
+    /* z-index: -1; */
+
+    margin-top: -150px;
+    margin-left: -50px;
+} 
+.box_color__2 {
+    /* background-color: #8d785b; */
+    background-color: #8d785b;
+    overflow: hidden;
+    width: 100px;
+    height: 150px;
+}
+@media screen and (max-width: 600px){
+    .image__2 {
+        width: 50px;
+        height:100%;
+        /* z-index: -1; */
+    
+        margin-left: -200px;
+    } 
+    .box_color__2 {
+        /* background-color: #8d785b; */
+        background-color: #8d785b;
+        overflow: hidden;
+        width: 50px;
+        height: 80px;
+    }
+}
+
+.image__3 {
+    background-image: url("./img/md-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+
+    width: 100px;
+    height:100%;
+    /* z-index: -1; */
+
+    margin-left: -600px;
+} 
+.box_color__3 {
+    /* background-color: #8d785b; */
+    background-color: #8d785b;
+    overflow: hidden;
+    width: 100px;
+    height: 150px;
+}
+@media screen and (max-width: 600px){
+    .image__3 {
+        width: 50px;
+        height:100%;
+        /* z-index: -1; */
+    
+        margin-top: 250px;
+        margin-left: 0px;
+    } 
+    .box_color__3 {
+        /* background-color: #8d785b; */
+        background-color: #8d785b;
+        overflow: hidden;
+        width: 50px;
+        height: 80px;
+    }
+}
+
+.image__4 {
+    background-image: url("./img/chair.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+
+    width: 160px;
+    height:100%;
+    /* z-index: -1; */
+
+    margin-left: -870px;
+    margin-top: 150px;
+} 
+.box_color__4 {
+    /* background-color: #8d785b; */
+    background-color: #8d785b;
+    overflow: hidden;
+    width: 200px;
+    height: 100px;
+}
+@media screen and (max-width: 600px){
+    .image__4 {
+        width: 80px;
+        height:100%;
+        /* z-index: -1; */
+    
+        margin-left: 0px;
+    } 
+    .box_color__4 {
+        /* background-color: #8d785b; */
+        background-color: #8d785b;
+        overflow: hidden;
+        width: 80px;
+        height: 50px;
+    }
+}
+
+.image__5 {
+    background-image: url("./img/2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+
+    width: 160px;
+    height:100%;
+    /* z-index: -1; */
+
+    margin-left: -270px;
+    margin-top: -50px;
+} 
+.box_color__5 {
+    /* background-color: #8d785b; */
+    background-color: #8d785b;
+    overflow: hidden;
+    width: 200px;
+    height: 100px;
+}
+@media screen and (max-width: 600px){
+    .image__5 {
+        width: 100px;
+        height: 100%;
+    
+        margin-left: -200px;
+        margin-top: -150px;
+    } 
+    .box_color__5 {
+        background-color: #8d785b;
+        overflow: hidden;
+        width: 100px;
+        height: 50px;
+    }
 }

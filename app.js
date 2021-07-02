@@ -8,8 +8,8 @@ TweenMax.to(".block_1", 1.9, {
     delay: 0.9,
 });
 TweenMax.to(".block_1__mobile", 1.9, {
-    x: "80",
-    y: "-100",
+    x: "10",
+    y: "-150",
     scale: "2.4",
     ease: Expo.easeInOut,
     delay: 0.9,
@@ -23,8 +23,8 @@ TweenMax.to(".block_2", 1.9, {
     delay: 0.9,
 });
 TweenMax.to(".block_2__mobile", 1.9, {
-    x: "90",
-    y: "200",
+    x: "180",
+    y: "310",
     scale: "1.2",
     ease: Expo.easeInOut,
     delay: 0.9,
@@ -39,7 +39,7 @@ TweenMax.to(".block_3", 1.9, {
 });
 TweenMax.to(".block_3__mobile", 1.9, {
     x: "180",
-    y: "-240",
+    y: "-200",
     scale: "1.6",
     ease: Expo.easeInOut,
     delay: 0.9,
@@ -53,7 +53,7 @@ TweenMax.to(".block_4", 1.9, {
     delay: 0.9,
 });
 TweenMax.to(".block_4__mobile", 1.9, {
-    x: "210",
+    x: "230",
     y: "250",
     scale: "0.8",
     ease: Expo.easeInOut,
@@ -83,7 +83,7 @@ TweenMax.to(".block_6", 1.9, {
     delay: 0.9,
 });
 TweenMax.to(".block_6__mobile", 1.9, {
-    x: "-50",
+    x: "-10",
     y: "300",
     scale: "2.4",
     ease: Expo.easeInOut,
@@ -98,8 +98,8 @@ TweenMax.to(".block_7", 1.9, {
     delay: 0.9,
 });
 TweenMax.to(".block_7__mobile", 1.9, {
-    x: "-200",
-    y: "150",
+    x: "30",
+    y: "100",
     scale: "1.2",
     ease: Expo.easeInOut,
     delay: 0.9,
@@ -113,8 +113,8 @@ TweenMax.to(".block_8", 1.9, {
     delay: 0.9,
 });
 TweenMax.to(".block_8__mobile", 1.9, {
-    x: "30",
-    y: "-140",
+    x: "190",
+    y: "-90",
     scale: "1.6",
     ease: Expo.easeInOut,
     delay: 0.9,
@@ -172,7 +172,83 @@ TweenMax.to(".block_11__mobile", 1.9, {
 
 
 
+// IMAGES ***************************************************************************************************************************************************************************************************************************************************************************************************************
 
+
+gsap.from(".image__1", {
+    y:80, 
+    stagger:0.05, 
+    opacity:0, 
+    delay: 2.5,
+    duration:3.5, 
+    ease:"power3.out"
+})
+// Disparition 
+gsap.from('.box_color__1', 2.5, {
+    y: '100%',
+    ease: Expo.easeInOut,
+    delay: 4.5
+})
+// *************
+gsap.from(".image__2", {
+    y:80, 
+    stagger:0.05, 
+    opacity:0, 
+    delay: 2.5,
+    duration:4.5, 
+    ease:"power3.out"
+})
+// Disparition 
+gsap.from('.box_color__2', 2.5, {
+    y: '100%',
+    ease: Expo.easeInOut,
+    delay: 3.5
+})
+// **************
+gsap.from(".image__3", {
+    y:80, 
+    stagger:0.05, 
+    opacity:0, 
+    delay: 2.5,
+    duration:3.5, 
+    ease:"power3.out"
+})
+// Disparition 
+gsap.from('.box_color__3', 2.5, {
+    y: '100%',
+    ease: Expo.easeInOut,
+    delay: 4.5
+})
+// **************
+gsap.from(".image__4", {
+    y:80, 
+    stagger:0.05, 
+    opacity:0, 
+    delay: 2.5,
+    duration:3.5, 
+    ease:"power3.out"
+})
+// Disparition 
+gsap.from('.box_color__4', 2.5, {
+    y: '100%',
+    ease: Expo.easeInOut,
+    delay: 4.5
+})
+// **************
+gsap.from(".image__5", {
+    y:80, 
+    stagger:0.05, 
+    opacity:0, 
+    delay: 2.5,
+    duration:3.5, 
+    ease:"power3.out"
+})
+// Disparition 
+gsap.from('.box_color__5', 2.5, {
+    y: '100%',
+    ease: Expo.easeInOut,
+    delay: 4.5
+})
 
 
 
@@ -181,35 +257,20 @@ TweenMax.to(".block_11__mobile", 1.9, {
 
 
 
-// TweenMax.to(".box", 2.4, {
-//     y: "-100%",
-//     ease: Expo.easeInOut,
-// });
+
 
 TweenMax.from(".circle_shape", 4.2, {
     scale: "0",
     ease: Expo.easeInOut,
 });
-// TweenMax.from(".circle_shape_2", 2.4, {
-//     scale: "0",
-//     ease: Expo.easeInOut,
-// });
-// TweenMax.from(".circle_shape_3", 2.4, {
-//     scale: "0",
-//     ease: Expo.easeInOut,
-// });
+
 TweenMax.from(".navbar > div", 1.6, {
     opacity: 0,
     y: 60,
     ease: Expo.easeInOut,
     delay: 0.6,
 });
-// TweenMax.from(".site_logo", 1.6, {
-//     opacity: 0,
-//     y: 40,
-//     ease: Expo.easeInOut,
-//     delay: 0.6,
-// });
+
 
 gsap.from('.name_one', 2.5, {
     y: '100%',
@@ -217,12 +278,7 @@ gsap.from('.name_one', 2.5, {
     delay: 1.4
 })
 
-// TweenMax.from(".showreel", 1.6, {
-//     opacity: 0,
-//     y: 40,
-//     ease: Expo.easeInOut,
-//     delay: 0.6,
-// });
+
 TweenMax.staggerFrom(
     ".site_menu > div",
     1,
