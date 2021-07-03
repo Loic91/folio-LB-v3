@@ -364,6 +364,19 @@ TweenMax.from("#front__1", 2.6, {
 //     ease: Expo.easeInOut,
 //     delay: 6.4,
 // });
+
+TweenMax.from("#base__1", 2.6, {
+    opacity: 0,
+    y: '40%',
+    ease: Expo.easeInOut,
+    delay: 7.8,
+});
+TweenMax.from("#paris__1", 2.6, {
+    opacity: 0,
+    y: '40%',
+    ease: Expo.easeInOut,
+    delay: 8.2,
+});
 // ******
 
 TweenMax.from("#dev__1__mobile", 2.6, {

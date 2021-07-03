@@ -171,7 +171,7 @@ body {
     font-family: "GRIFTER";
     /* font-family: 'Mukta', sans-serif; */
     font-weight: lighter;
-    font-size: 10em; 
+    font-size: 6em; 
     color: rgb(0, 0, 0); 
     
 }
@@ -179,7 +179,7 @@ body {
     position: absolute;
     overflow: hidden;
     width: 100%;
-    height: 162px;
+    height: 101px;
     z-index: 250;
 
     padding-top: 10px;
@@ -191,7 +191,7 @@ body {
     font-family: "GRIFTER";
     /* font-family: 'Mukta', sans-serif; */
     font-weight: lighter;
-    font-size: 12em; 
+    font-size: 6em; 
     color: rgb(0, 0, 0);
     z-index: 2;  
     
@@ -200,11 +200,49 @@ body {
     position: absolute;
     overflow: hidden;
     width: 100%;
-    height: 232px;
+    height: 141px;
     z-index: 250;
 
     padding-top: 50px;
-    margin-top: 250px;
+    margin-top: 200px;
+    text-align: center;
+}
+#base__1{
+    font-family: "GRIFTER";
+    /* font-family: 'Mukta', sans-serif; */
+    font-weight: lighter;
+    font-size: 6em; 
+    color: rgb(0, 0, 0); 
+    
+}
+.text__base{
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 101px;
+    z-index: 250;
+
+    padding-top: 10px;
+    margin-top: 335px;
+    text-align: center;
+}
+#paris__1{
+    font-family: "GRIFTER";
+    /* font-family: 'Mukta', sans-serif; */
+    font-weight: lighter;
+    font-size: 6em; 
+    color: rgb(0, 0, 0); 
+    
+}
+.text__paris{
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 101px;
+    z-index: 250;
+
+    padding-top: 10px;
+    margin-top: 430px;
     text-align: center;
 }
 @media screen and (max-width: 599px){
@@ -238,6 +276,41 @@ body {
         height: 62px;
         z-index: 350;
     
+        margin-top: 250px;
+        padding-top: 10px;
+        text-align: left;
+    }
+    #base__1{
+        font-family: "GRIFTER";
+        /* font-family: 'Mukta', sans-serif; */
+        font-weight: lighter;
+        font-size: 3em; 
+        color: rgb(0, 0, 0);
+        
+    }
+    .text__base{
+        width: 100%;
+        height: 62px;
+        z-index: 350;
+        
+        margin-top: 300px;
+        padding-top: 10px;
+        text-align: left;
+    }
+    #paris__1{
+        font-family: "GRIFTER";
+        /* font-family: 'Mukta', sans-serif; */
+        font-weight: lighter;
+        font-size: 3em; 
+        color: rgb(0, 0, 0);
+        
+    }
+    .text__paris{
+        width: 100%;
+        height: 62px;
+        z-index: 350;
+    
+        margin-top: 350px;
         padding-top: 10px;
         text-align: left;
     }
