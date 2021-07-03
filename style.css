@@ -35,7 +35,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: #dbc4a4;
+	background: #ddd8d0;
 }
 
 .display_blocks{
@@ -60,7 +60,7 @@ body {
         font-family: "GRIFTER";
         display: flex;
         font-size: 3em;
-        color: #e9d4b7;
+        color: #39fa09;
         margin: 10px;
     }
 }
@@ -74,7 +74,7 @@ body {
     font-family: "GRIFTER";
 	display: flex;
 	font-size: 4em;
-	color: #e9d4b7;
+	color: #09fa29;
     margin: 10px;
     z-index: 99;
 }
@@ -504,7 +504,7 @@ body {
 } 
 .box_color__1 {
     /* background-color: #dbc4a4; */
-    background-color: #dbc4a4;
+    background-color: #ddd8d0;
     overflow: hidden;
     width: 120px;
     height: 180px;
@@ -520,7 +520,7 @@ body {
     } 
     .box_color__1 {
         /* background-color: #dbc4a4; */
-        background-color: #dbc4a4;
+        background-color: #ddd8d0;
         overflow: hidden;
         width: 50px;
         height: 80px;
@@ -544,7 +544,7 @@ body {
 } 
 .box_color__2 {
     /* background-color: #dbc4a4; */
-    background-color: #dbc4a4;
+    background-color: #ddd8d0;
     overflow: hidden;
     width: 100px;
     height: 70px;
@@ -560,7 +560,7 @@ body {
     } 
     .box_color__2 {
         /* background-color: #dbc4a4; */
-        background-color: #dbc4a4;
+        background-color: #ddd8d0;
         overflow: hidden;
         width: 110px;
         height: 60px;
@@ -583,7 +583,7 @@ body {
 } 
 .box_color__3 {
     /* background-color: #dbc4a4; */
-    background-color: #dbc4a4;
+    background-color: #ddd8d0;
     overflow: hidden;
     width: 100px;
     height: 150px;
@@ -599,7 +599,7 @@ body {
     } 
     .box_color__3 {
         /* background-color: #dbc4a4; */
-        background-color: #dbc4a4;
+        background-color: #ddd8d0;
         overflow: hidden;
         width: 60px;
         height: 80px;
@@ -623,7 +623,7 @@ body {
 } 
 .box_color__4 {
     /* background-color: #dbc4a4; */
-    background-color: #dbc4a4;
+    background-color: #ddd8d0;
     overflow: hidden;
     width: 200px;
     height: 100px;
@@ -638,7 +638,7 @@ body {
     } 
     .box_color__4 {
         /* background-color: #dbc4a4; */
-        background-color: #dbc4a4;
+        background-color: #ddd8d0;
         overflow: hidden;
         width: 80px;
         height: 50px;
@@ -662,7 +662,7 @@ body {
 } 
 .box_color__5 {
     /* background-color: #dbc4a4; */
-    background-color: #dbc4a4;
+    background-color: #ddd8d0;
     overflow: hidden;
     width: 200px;
     height: 100px;
@@ -676,7 +676,7 @@ body {
         margin-top: -150px;
     } 
     .box_color__5 {
-        background-color: #dbc4a4;
+        background-color: #ddd8d0;
         overflow: hidden;
         width: 100px;
         height: 50px;
@@ -701,7 +701,7 @@ body {
 } 
 .box_color__6 {
     /* background-color: #dbc4a4; */
-    background-color: #dbc4a4;
+    background-color: #ddd8d0;
     overflow: hidden;
     width: 200px;
     height: 100px;
@@ -715,7 +715,7 @@ body {
         margin-top: -50px;
     } 
     .box_color__6 {
-        background-color: #dbc4a4;
+        background-color: #ddd8d0;
         overflow: hidden;
         width: 60px;
         height: 40px;
@@ -739,7 +739,7 @@ body {
 } 
 .box_color__7 {
     /* background-color: #dbc4a4; */
-    background-color: #dbc4a4;
+    background-color: #ddd8d0;
     overflow: hidden;
     width: 120px;
     height: 180px;
@@ -755,7 +755,7 @@ body {
     } 
     .box_color__7 {
         /* background-color: #dbc4a4; */
-        background-color: #dbc4a4;
+        background-color: #ddd8d0;
         overflow: hidden;
         width: 50px;
         height: 80px;
