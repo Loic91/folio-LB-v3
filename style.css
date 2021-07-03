@@ -70,7 +70,6 @@ body {
     }
 }
 
-
 .blocks {
     font-family: "GRIFTER";
 	display: flex;
@@ -387,6 +386,7 @@ body {
     background-size: cover;
     overflow: hidden;
     position: relative;
+    border-radius: 20px;
 
     width: 120px;
     height:100%;
