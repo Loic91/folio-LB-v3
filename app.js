@@ -187,7 +187,7 @@ gsap.from(".image__1", {
 gsap.from('.box_color__1', 2.5, {
     y: '100%',
     ease: Expo.easeInOut,
-    delay: 4.5
+    delay: 5.3
 })
 // *************
 gsap.from(".image__2", {
@@ -202,7 +202,7 @@ gsap.from(".image__2", {
 gsap.from('.box_color__2', 2.5, {
     y: '100%',
     ease: Expo.easeInOut,
-    delay: 3.5
+    delay: 5.1
 })
 // **************
 gsap.from(".image__3", {
@@ -217,7 +217,7 @@ gsap.from(".image__3", {
 gsap.from('.box_color__3', 2.5, {
     y: '100%',
     ease: Expo.easeInOut,
-    delay: 4.5
+    delay: 5.4
 })
 // **************
 gsap.from(".image__4", {
@@ -232,7 +232,7 @@ gsap.from(".image__4", {
 gsap.from('.box_color__4', 2.5, {
     y: '100%',
     ease: Expo.easeInOut,
-    delay: 4.5
+    delay: 5.3
 })
 // **************
 gsap.from(".image__5", {
@@ -247,7 +247,7 @@ gsap.from(".image__5", {
 gsap.from('.box_color__5', 2.5, {
     y: '100%',
     ease: Expo.easeInOut,
-    delay: 4.7
+    delay: 5.5
 })
 // **************
 gsap.from(".image__6", {
@@ -262,7 +262,7 @@ gsap.from(".image__6", {
 gsap.from('.box_color__6', 2.5, {
     y: '100%',
     ease: Expo.easeInOut,
-    delay: 4.5
+    delay: 5.8
 })
 // **************
 gsap.from(".image__7", {
@@ -277,7 +277,7 @@ gsap.from(".image__7", {
 gsap.from('.box_color__7', 2.5, {
     y: '100%',
     ease: Expo.easeInOut,
-    delay: 4.6
+    delay: 5.1
 })
 
 
@@ -340,30 +340,30 @@ TweenMax.from("#dev__1", 2.6, {
     opacity: 0,
     y: '40%',
     ease: Expo.easeInOut,
-    delay: 2.8,
+    delay: 6.9,
 });
 // ***Disparition du mot
-TweenMax.to("#dev__1", 2.6, {
-    // opacity: 0,
-    y: '60%',
-    ease: Expo.easeInOut,
-    delay: 5.8,
-});
+// TweenMax.to("#dev__1", 2.6, {
+//     // opacity: 0,
+//     y: '60%',
+//     ease: Expo.easeInOut,
+//     delay: 6.5,
+// });
 // ******
 
 TweenMax.from("#front__1", 2.6, {
     opacity: 0,
     y: '40%',
     ease: Expo.easeInOut,
-    delay: 3.6,
+    delay: 7.3,
 });
 // ***Disparition du mot
-TweenMax.to("#front__1", 2.6, {
-    // opacity: 0,
-    y: '60%',
-    ease: Expo.easeInOut,
-    delay: 6.4,
-});
+// TweenMax.to("#front__1", 2.6, {
+//     // opacity: 0,
+//     y: '60%',
+//     ease: Expo.easeInOut,
+//     delay: 6.4,
+// });
 // ******
 
 TweenMax.from("#dev__1__mobile", 2.6, {
