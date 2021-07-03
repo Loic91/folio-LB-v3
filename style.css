@@ -390,6 +390,7 @@ body {
 .footer{
     font-family: 'Mukta', sans-serif;
     display: flex;
+    z-index: 350;
 }
 .footer .switch{
     position: absolute;
