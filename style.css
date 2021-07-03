@@ -166,13 +166,13 @@ body {
 
 /* ============================================= */
 
-#front__1{
+
+#dev__1{
     font-family: "GRIFTER";
     /* font-family: 'Mukta', sans-serif; */
     font-weight: lighter;
-    font-size: 12em; 
-    color: rgb(0, 0, 0);
-    z-index: 2;  
+    font-size: 10em; 
+    color: rgb(0, 0, 0); 
     
 }
 .text__dev{
@@ -187,12 +187,13 @@ body {
     text-align: center;
 }
 
-#dev__1{
+#front__1{
     font-family: "GRIFTER";
     /* font-family: 'Mukta', sans-serif; */
     font-weight: lighter;
-    font-size: 10em; 
-    color: rgb(0, 0, 0); 
+    font-size: 12em; 
+    color: rgb(0, 0, 0);
+    z-index: 2;  
     
 }
 .text__front{
@@ -206,7 +207,42 @@ body {
     margin-top: 250px;
     text-align: center;
 }
-@media screen and (min-width: 769px){
+@media screen and (max-width: 599px){
+    #dev__1{
+        font-family: "GRIFTER";
+        /* font-family: 'Mukta', sans-serif; */
+        font-weight: lighter;
+        font-size: 3em; 
+        color: rgb(0, 0, 0); 
+        
+    }
+    .text__dev{
+        width: 100%;
+        height: 56px;
+        z-index: 350;
+    
+        padding-top: 10px;
+        margin-top: 200px;
+        text-align: left;
+    }
+    #front__1{
+        font-family: "GRIFTER";
+        /* font-family: 'Mukta', sans-serif; */
+        font-weight: lighter;
+        font-size: 3em; 
+        color: rgb(0, 0, 0);
+        
+    }
+    .text__front{
+        width: 100%;
+        height: 62px;
+        z-index: 350;
+    
+        padding-top: 10px;
+        text-align: left;
+    }
+}
+/* @media screen and (min-width: 769px){
     .text__front__mobile{
         display: none;
     }
@@ -237,8 +273,8 @@ body {
     #dev__1__mobile3{
         display: none;
     }
-}
-@media screen and (max-width: 768px){
+} */
+/* @media screen and (max-width: 768px){
     .text__front{
         display: none;
     }
@@ -251,10 +287,11 @@ body {
     #dev__1{
         display: none;
     }
-    /* ============== */
+    
+
+
     #front__1__mobile1{
         font-family: "GRIFTER";
-        /* font-family: 'Mukta', sans-serif; */
         font-weight: lighter;
         font-size: 6.5em; 
         color: rgb(0, 0, 0);
@@ -273,7 +310,6 @@ body {
     }
     #front__1__mobile2{
         font-family: "GRIFTER";
-        /* font-family: 'Mukta', sans-serif; */
         font-weight: lighter;
         font-size: 6.5em; 
         color: rgb(0, 0, 0);
@@ -293,7 +329,6 @@ body {
     
     #dev__1__mobile{
         font-family: "GRIFTER";
-        /* font-family: 'Mukta', sans-serif; */
         font-weight: lighter;
         font-size: 6.5em; 
         color: rgb(0, 0, 0);
@@ -312,7 +347,6 @@ body {
     }
     #dev__1__mobile2{
         font-family: "GRIFTER";
-        /* font-family: 'Mukta', sans-serif; */
         font-weight: lighter;
         font-size: 6.5em; 
         color: rgb(0, 0, 0);
@@ -332,7 +366,6 @@ body {
     }
     #dev__1__mobile3{
         font-family: "GRIFTER";
-        /* font-family: 'Mukta', sans-serif; */
         font-weight: lighter;
         font-size: 6.5em; 
         color: rgb(0, 0, 0);
@@ -350,7 +383,7 @@ body {
         margin-top: 430px;
         text-align: right;
     }
-}
+} */
 
 /* **************************************************************************************************************************************************************************************** */
 
