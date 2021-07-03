@@ -135,6 +135,7 @@ body {
 	text-transform: uppercase;
 	line-height: 100px;
 	color: #000000;
+    z-index: 250;
 }
 
 .site_menu {
@@ -426,6 +427,7 @@ body {
     background-size: cover;
     overflow: hidden;
     position: relative;
+    border-radius: 20px;
 
     width: 100px;
     height:100%;
@@ -465,6 +467,7 @@ body {
     background-size: cover;
     overflow: hidden;
     position: relative;
+    border-radius: 20px;
 
     width: 100px;
     height:100%;
@@ -503,6 +506,7 @@ body {
     background-size: cover;
     overflow: hidden;
     position: relative;
+    border-radius: 20px;
 
     width: 160px;
     height:100%;
@@ -541,6 +545,7 @@ body {
     background-size: cover;
     overflow: hidden;
     position: relative;
+    border-radius: 20px;
 
     width: 160px;
     height:100%;
@@ -578,6 +583,7 @@ body {
     background-size: cover;
     overflow: hidden;
     position: relative;
+    border-radius: 20px;
 
     width: 160px;
     height:100%;
@@ -616,6 +622,7 @@ body {
     background-size: cover;
     overflow: hidden;
     position: relative;
+    border-radius: 20px;
 
     width: 120px;
     height:100%;
