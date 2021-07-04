@@ -8,7 +8,7 @@ document.onmousemove = function() {
     //"client" suivit de X ou Y correspond à la position de la souris de l'utilisateur 
     // 30 correspond à la puissance du mouvement
     let x = event.clientX * 10 / window.innerWidth + "%";
-    let y = event.clientY * 60 / window.innerHeight + "%";
+    let y = event.clientY * 40 / window.innerHeight + "%";
 
     for (let i = 0; i < 1; i++) {
         button[i].style.left = x;
