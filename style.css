@@ -60,7 +60,7 @@ body {
         font-family: "GRIFTER";
         display: flex;
         font-size: 3em;
-        color: #39fa09;
+        color: #a4ada5;
         margin: 10px;
     }
 }
@@ -74,7 +74,7 @@ body {
     font-family: "GRIFTER";
 	display: flex;
 	font-size: 4em;
-	color: #09fa29;
+	color: #a4ada5;
     margin: 10px;
     z-index: 99;
 }
@@ -761,4 +761,37 @@ body {
         height: 80px;
     }
 }
+
+
+
+/* BOUTON ******************************************************************************************************************************************************************************************************* */
+
+.container-button{
+    position: absolute;
+    transform: translateY('-50%');
+    /* width: 350px; */
+    text-align: center;
+    margin-top: 600px;
+    z-index: 350;
+  }
+  .button{
+    width: 200px;
+    height: 200px;
+    border-radius: 500px;
+    border: 1px solid rgb(0, 0, 0);
+    overflow: hidden;
+  }
+  .button:hover{
+    border: 3px solid rgb(0, 0, 0);
+  }
+  .arrow {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 30%;
+    font-size: 2em;
+  }
+  a{
+      text-decoration: none;
+  }
+
 
