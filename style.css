@@ -346,7 +346,7 @@ body {
 
 /* ANIMATION IMAGE *****************************************************************************************************************************************************************************************************************************************************************************/
 .image__folio {
-    background-image: url("./img/flowers-2.jpg");
+    background-image: url("./img/1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
@@ -362,7 +362,7 @@ body {
     z-index: -1;
     } 
 .box_folio__1 {
-    background-image: url("./img/flowers-1.jpg");
+    background-image: url("./img/8.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
@@ -370,7 +370,7 @@ body {
     height: 300px;
 }
 .box_folio__2 {
-    background-image: url("./img/passion1.jpg");
+    background-image: url("./img/3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
@@ -378,7 +378,7 @@ body {
     height: 300px;
 }
 .box_folio__3 {
-    background-image: url("./img/chair-5.png");
+    background-image: url("./img/4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
@@ -386,7 +386,7 @@ body {
     height: 300px;
 }
 .box_folio__4 {
-    background-image: url("./img/photographer.jpg");
+    background-image: url("./img/5.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
@@ -394,7 +394,7 @@ body {
     height: 300px;
 }
 .box_folio__5 {
-    background-image: url("./img/flowers-1.jpg");
+    background-image: url("./img/6.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
@@ -402,6 +402,14 @@ body {
     height: 300px;
 }
 .box_folio__6 {
+    background-image: url("./img/7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+}
+.box_folio__7 {
     /* background-image: url("./img/flowers-1.jpg");
     background-repeat: no-repeat;
     background-size: cover; */
@@ -887,6 +895,97 @@ body {
 
 
 /* BOUTON ******************************************************************************************************************************************************************************************************* */
+.link {
+    outline: none;
+    text-decoration: none;
+    position: relative;
+    line-height: 1;
+    color: #ffffff;
+    display: inline-block;
+}
+
+.link--kukuri {
+    text-transform: uppercase;
+    overflow: hidden;
+    color: #ffffff;
+
+    padding-top: 3px;
+}
+.link--kukuri:hover {
+    color: #ffffff;
+  }
+  .link--kukuri::after {
+    content: "";
+    position: absolute;
+    height: 16px;
+    width: 100%;
+    top: 50%;
+    margin-top: -8px;
+    right: 0;
+    background: skyblue;
+    transform: translate3d(-100%, 0, 0);
+    transition: transform 0.4s;
+    transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+  }
+  .link--kukuri:hover::after {
+    transform: translate3d(100%, 0, 0);
+  }
+  .link--kukuri::before {
+    content: attr(data-letters);
+    position: absolute;
+    z-index: 2;
+    overflow: hidden;
+    color: #ffffff;
+    white-space: nowrap;
+    width: 0%;
+    transition: width 0.4s 0.3s;
+  }
+  .link--kukuri:hover::before {
+    width: 100%;
+  }
+
+/* ************************************************************************************** */
+.link--takiri {
+    color: white;
+    text-decoration: none;
+    /* -webkit-transition: color 0.5s;
+    transition: 0.5s; */
+    z-index: 0;
+  }
+  .link--takiri:hover {
+    color: #ffffff;
+  }
+  .link--takiri:hover::before {
+    -webkit-transform: rotate3d(0, 0, 1, 45deg) scale3d(1, 1, 1);
+    transform: rotate3d(0, 0, 1, 45deg) scale3d(1, 1, 1);
+  }
+  .link--takiri:hover span {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  .link--takiri:before {
+    content: "";
+    position: absolute;
+    height: 10px;
+    width: 100%;
+    top: 50%;
+    margin-top: -5px;
+    left: -10%;
+    z-index: -1;
+    background: skyblue;
+    -webkit-transform: rotate3d(0, 0, 1, 45deg) scale3d(0, 1, 1);
+    transform: rotate3d(0, 0, 1, 45deg) scale3d(0, 1, 1);
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+  }
+
+
+
+
+
+
+
 
 /* .container-button{
     position: absolute;
