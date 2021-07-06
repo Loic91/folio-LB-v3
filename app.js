@@ -2,8 +2,8 @@
 // MOT ANIMATION ***************************************************************************************************************************************************************************************************************************************************************************************************************
 
 TweenMax.to(".block_1", 1.9, {
-    x: "50",
-    y: "-100",
+    x: "-135",
+    y: "-150",
     scale: "2.4",
     ease: Expo.easeInOut,
     delay: 0.9,
@@ -17,8 +17,8 @@ TweenMax.to(".block_1__mobile", 1.9, {
 });
 // ****************
 TweenMax.to(".block_2", 1.9, {
-    x: "-20",
-    y: "200",
+    x: "-100",
+    y: "260",
     scale: "1.2",
     ease: Expo.easeInOut,
     delay: 0.9,
@@ -47,7 +47,7 @@ TweenMax.to(".block_3__mobile", 1.9, {
 });
 // *****************
 TweenMax.to(".block_4", 1.9, {
-    x: "280",
+    x: "240",
     y: "280",
     scale: "0.8",
     ease: Expo.easeInOut,
@@ -77,8 +77,8 @@ TweenMax.to(".block_5__mobile", 1.9, {
 });
 // ******************
 TweenMax.to(".block_6", 1.9, {
-    x: "600",
-    y: "100",
+    x: "400",
+    y: "-100",
     scale: "2.4",
     ease: Expo.easeInOut,
     delay: 0.9,
@@ -92,8 +92,8 @@ TweenMax.to(".block_6__mobile", 1.9, {
 });
 // ******************
 TweenMax.to(".block_7", 1.9, {
-    x: "-220",
-    y: "150",
+    x: "-320",
+    y: "120",
     scale: "1.2",
     ease: Expo.easeInOut,
     delay: 0.9,
@@ -107,8 +107,8 @@ TweenMax.to(".block_7__mobile", 1.9, {
 });
 // ******************
 TweenMax.to(".block_8", 1.9, {
-    x: "220",
-    y: "-150",
+    x: "20",
+    y: "-120",
     scale: "1.6",
     ease: Expo.easeInOut,
     delay: 0.9,
@@ -122,8 +122,8 @@ TweenMax.to(".block_8__mobile", 1.9, {
 });
 // *****************
 TweenMax.to(".block_9", 1.9, {
-    x: "-100",
-    y: "150",
+    x: "-300",
+    y: "250",
     scale: "0.5",
     ease: Expo.easeInOut,
     delay: 0.9,
@@ -137,8 +137,8 @@ TweenMax.to(".block_9__mobile", 1.9, {
 });
 // *****************
 TweenMax.to(".block_10", 1.9, {
-    x: "-300",
-    y: "-50",
+    x: "-600",
+    y: "-150",
     scale: "0.9",
     ease: Expo.easeInOut,
     delay: 0.9,
@@ -152,8 +152,8 @@ TweenMax.to(".block_10__mobile", 1.9, {
 });
 // *****************
 TweenMax.to(".block_11", 1.9, {
-    x: "90",
-    y: "-80",
+    x: "-190",
+    y: "180",
     scale: "0.5",
     ease: Expo.easeInOut,
     delay: 0.9,
@@ -463,3 +463,43 @@ TweenMax.to("#front__1__mobile2", 2.6, {
     delay: 8.8,
 });
 // ******
+
+
+
+
+
+gsap.from(".image__folio", {
+    y:80, 
+    stagger:0.05, 
+    opacity:0, 
+    delay: 9.0,
+    duration:4.5, 
+    ease:"power3.out"
+})
+// Disparition 
+gsap.from('.box_folio__1', 2.5, {
+    x: '-100%',
+    ease: Expo.easeInOut,
+    delay: 10.2
+})
+gsap.from('.box_folio__2', 2.5, {
+    x: '-100%',
+    ease: Expo.easeInOut,
+    delay: 12.5
+})
+gsap.from('.box_folio__3', 2.5, {
+    x: '-100%',
+    ease: Expo.easeInOut,
+    delay: 14.8
+})
+gsap.from('.box_folio__4', 2.5, {
+    x: '-100%',
+    ease: Expo.easeInOut,
+    delay: 17.1
+})
+gsap.from('.box_folio__5', 2.5, {
+    x: '-100%',
+    ease: Expo.easeInOut,
+    delay: 19.4
+})
+

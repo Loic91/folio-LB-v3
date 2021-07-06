@@ -45,7 +45,7 @@ body {
 .display_blocks{
     display: flex;
     margin-left: auto;
-    margin-right: auto;
+    /* margin-right: auto; */
     z-index: 200;
 }
 @media screen and (max-width: 599px){
@@ -93,11 +93,30 @@ body {
 	transform: translate(-50%, -50%);
 	width: 600px;
 	height: 600px;
-	border: 1px solid #222724;
+	border: 1px solid #000000;
 	border-radius: 100%;
     z-index: 100;
 }
+.circle_shape__mobile{
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 600px;
+	height: 600px;
+	border: 1px solid #000000;
+	border-radius: 100%;
+    z-index: 100;
+}
+@media screen and (max-width: 768px){
+    .circle_shape{
+        display: none;
+    }
+}
 @media screen and (min-width: 769px){
+    .circle_shape__mobile{
+        display: none;
+    }
     .blocks {
         display: flex;
         font-size: 140px;
@@ -178,7 +197,7 @@ body {
     font-family: "GRIFTER";
     /* font-family: 'Mukta', sans-serif; */
     font-weight: lighter;
-    font-size: 10em; 
+    font-size: 7em; 
     color: rgb(255, 255, 255); 
     
 }
@@ -186,19 +205,19 @@ body {
     position: absolute;
     overflow: hidden;
     width: 100%;
-    height: 162px;
+    height: 118px;
     z-index: 250;
 
     padding-top: 10px;
     margin-top: 150px;
-    text-align: center;
+    text-align: right;
 }
 
 #front__1{
     font-family: "GRIFTER";
     /* font-family: 'Mukta', sans-serif; */
     font-weight: lighter;
-    font-size: 10em; 
+    font-size: 7em; 
     color: rgb(255, 255, 255);
     z-index: 2;  
     
@@ -207,50 +226,50 @@ body {
     position: absolute;
     overflow: hidden;
     width: 100%;
-    height: 202px;
+    height: 158px;
     z-index: 250;
 
     padding-top: 50px;
-    margin-top: 250px;
-    text-align: center;
+    margin-top: 200px;
+    text-align: right;
 }
 #base__1{
     font-family: "GRIFTER";
     /* font-family: 'Mukta', sans-serif; */
     font-weight: lighter;
-    font-size: 6em; 
-    color: rgb(0, 0, 0); 
+    font-size: 7em; 
+    color: rgb(255, 255, 255); 
     
 }
 .text__base{
     position: absolute;
     overflow: hidden;
     width: 100%;
-    height: 101px;
+    height: 117px;
     z-index: 250;
 
     padding-top: 10px;
     margin-top: 335px;
-    text-align: center;
+    text-align: left;
 }
 #paris__1{
     font-family: "GRIFTER";
     /* font-family: 'Mukta', sans-serif; */
     font-weight: lighter;
-    font-size: 6em; 
-    color: rgb(0, 0, 0); 
+    font-size: 7em; 
+    color: rgb(255, 255, 255); 
     
 }
 .text__paris{
     position: absolute;
     overflow: hidden;
     width: 100%;
-    height: 101px;
+    height: 118px;
     z-index: 250;
 
     padding-top: 10px;
     margin-top: 430px;
-    text-align: center;
+    text-align: left;
 }
 @media screen and (max-width: 599px){
     #dev__1{
@@ -268,7 +287,7 @@ body {
     
         padding-top: 10px;
         margin-top: 200px;
-        text-align: center;
+        text-align: right;
     }
     #front__1{
         font-family: "GRIFTER";
@@ -285,14 +304,14 @@ body {
     
         margin-top: 250px;
         padding-top: 10px;
-        text-align: center;
+        text-align: right;
     }
     #base__1{
         font-family: "GRIFTER";
         /* font-family: 'Mukta', sans-serif; */
         font-weight: lighter;
         font-size: 3em; 
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
         
     }
     .text__base{
@@ -300,7 +319,7 @@ body {
         height: 62px;
         z-index: 350;
         
-        margin-top: 300px;
+        margin-top: 350px;
         padding-top: 10px;
         text-align: left;
     }
@@ -309,7 +328,7 @@ body {
         /* font-family: 'Mukta', sans-serif; */
         font-weight: lighter;
         font-size: 3em; 
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
         
     }
     .text__paris{
@@ -317,7 +336,7 @@ body {
         height: 62px;
         z-index: 350;
     
-        margin-top: 350px;
+        margin-top: 400px;
         padding-top: 10px;
         text-align: left;
     }
@@ -325,8 +344,63 @@ body {
 
 
 
-/* ANIMATION TEXTE *****************************************************************************************************************************************************************************************************************************************************************************/
+/* ANIMATION IMAGE *****************************************************************************************************************************************************************************************************************************************************************************/
+.image__folio {
+    background-image: url("./img/flowers-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    border-radius: 20%;
 
+    width: 300px;
+    height: 50%;
+
+    margin-left: auto;
+    margin-right: auto;
+    top: 35%;
+    z-index: -1;
+    } 
+.box_folio__1 {
+    background-image: url("./img/flowers-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+}
+.box_folio__2 {
+    background-image: url("./img/passion1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+}
+.box_folio__3 {
+    background-image: url("./img/chair-5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+}
+.box_folio__4 {
+    background-image: url("./img/photographer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+}
+.box_folio__5 {
+    background-image: url("./img/flower.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+}
 
 
 
@@ -791,10 +865,9 @@ body {
 
 /* BOUTON ******************************************************************************************************************************************************************************************************* */
 
-.container-button{
+/* .container-button{
     position: absolute;
     transform: translateY('-50%');
-    /* width: 350px; */
     text-align: center;
     margin-top: 600px;
     z-index: 350;
@@ -828,5 +901,5 @@ body {
           font-size: 1.5em;
           margin-top: 30%;
       }
-  }
+  } */
 
