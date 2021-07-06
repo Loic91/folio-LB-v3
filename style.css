@@ -1,6 +1,6 @@
 @font-face{
-    font-family: "Miracle"; 
-    src: url('./fonts/Miracle/Miracle\ Personal\ use.otf') format('opentype');
+    font-family: "Migha"; 
+    src: url('./fonts/Migha/Migha_Variable/Migha_Variable.ttf') format('truetype');
 }
 @font-face{
     font-family: "Aelyn"; 
@@ -63,7 +63,7 @@ body {
     }
     .blocks__mobile {
         /* font-family: "GRIFTER"; */
-        font-family: "Miracle"; 
+        font-family: "Migha";
         display: flex;
         font-size: 3em;
         color: #222724;
