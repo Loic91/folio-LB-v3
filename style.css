@@ -209,7 +209,7 @@ body {
     z-index: 250;
 
     padding-top: 10px;
-    margin-top: 150px;
+    margin-top: 180px;
     text-align: right;
 }
 
@@ -230,7 +230,7 @@ body {
     z-index: 250;
 
     padding-top: 50px;
-    margin-top: 200px;
+    margin-top: 230px;
     text-align: right;
 }
 #base__1{
@@ -249,7 +249,7 @@ body {
     z-index: 250;
 
     padding-top: 10px;
-    margin-top: 335px;
+    margin-top: 370px;
     text-align: left;
 }
 #paris__1{
@@ -268,7 +268,7 @@ body {
     z-index: 250;
 
     padding-top: 10px;
-    margin-top: 430px;
+    margin-top: 460px;
     text-align: left;
 }
 @media screen and (max-width: 599px){
@@ -394,14 +394,28 @@ body {
     height: 300px;
 }
 .box_folio__5 {
-    background-image: url("./img/flower.jpg");
+    background-image: url("./img/flowers-1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
     width: 300px;
     height: 300px;
 }
+.box_folio__6 {
+    /* background-image: url("./img/flowers-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: skyblue;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+}
 
+@media screen and (max-width: 599px){
+    .image__folio{
+        
+    }
+}
 
 
 
