@@ -154,6 +154,7 @@ body {
     height: 57px;
     overflow: hidden;
     padding-top: 10px;
+    z-index: 300;
 }
 .name_one h1{
     font-size: 2em;
