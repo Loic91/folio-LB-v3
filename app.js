@@ -25,7 +25,7 @@ TweenMax.to(".block_2", 1.9, {
 });
 TweenMax.to(".block_2__mobile", 1.9, {
     x: "10",
-    y: "300",
+    y: "250",
     scale: "1.2",
     ease: Expo.easeInOut,
     delay: 0.9,
