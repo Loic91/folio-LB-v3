@@ -54,7 +54,7 @@ TweenMax.to(".block_4", 1.9, {
     delay: 0.9,
 });
 TweenMax.to(".block_4__mobile", 1.9, {
-    x: "230",
+    x: "250",
     y: "50",
     scale: "0.8",
     ease: Expo.easeInOut,
