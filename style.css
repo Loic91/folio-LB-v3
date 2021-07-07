@@ -68,7 +68,7 @@ body {
         margin-top: -100px;
         margin-left: -570px;
         /* text-align: center; */
-        z-index: 200;
+        z-index: 250;
     }
     .blocks{
         display: none;
