@@ -186,7 +186,8 @@ gsap.from(".image__1", {
 })
 // Disparition 
 gsap.from('.box_color__1', 2.5, {
-    y: '100%',
+    // y: '-100%',
+    opacity:0,
     ease: Expo.easeInOut,
     delay: 5.3
 })
@@ -201,7 +202,8 @@ gsap.from(".image__2", {
 })
 // Disparition 
 gsap.from('.box_color__2', 2.5, {
-    y: '100%',
+    // y: '-100%',
+    opacity:0,
     ease: Expo.easeInOut,
     delay: 5.1
 })
@@ -216,7 +218,8 @@ gsap.from(".image__3", {
 })
 // Disparition 
 gsap.from('.box_color__3', 2.5, {
-    y: '100%',
+    // y: '-100%',
+    opacity:0,
     ease: Expo.easeInOut,
     delay: 5.4
 })
@@ -231,7 +234,8 @@ gsap.from(".image__4", {
 })
 // Disparition 
 gsap.from('.box_color__4', 2.5, {
-    y: '100%',
+    // y: '-100%',
+    opacity:0,
     ease: Expo.easeInOut,
     delay: 5.3
 })
@@ -246,7 +250,8 @@ gsap.from(".image__5", {
 })
 // Disparition 
 gsap.from('.box_color__5', 2.5, {
-    y: '100%',
+    // y: '-100%',
+    opacity:0,
     ease: Expo.easeInOut,
     delay: 5.5
 })
@@ -261,7 +266,8 @@ gsap.from(".image__6", {
 })
 // Disparition 
 gsap.from('.box_color__6', 2.5, {
-    y: '100%',
+    // y: '-100%',
+    opacity:0,
     ease: Expo.easeInOut,
     delay: 5.8
 })
@@ -276,7 +282,8 @@ gsap.from(".image__7", {
 })
 // Disparition 
 gsap.from('.box_color__7', 2.5, {
-    y: '100%',
+    // y: '-100%',
+    opacity:0,
     ease: Expo.easeInOut,
     delay: 5.1
 })
