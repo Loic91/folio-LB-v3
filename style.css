@@ -50,7 +50,7 @@ body {
 }
 
 .block_5__mobile, .block_6__mobile, .block_7__mobile, .block_8__mobile, .block_9__mobile, .block_10__mobile, .block_11__mobile{
-    font-style: italic;
+    /* font-style: italic; */
     color: #1b2531;
 }
 .display_blocks{
