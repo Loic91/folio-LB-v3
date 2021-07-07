@@ -2,8 +2,8 @@
 // MOT ANIMATION ***************************************************************************************************************************************************************************************************************************************************************************************************************
 
 TweenMax.to(".block_1", 1.9, {
-    x: "-195",
-    y: "-150",
+    x: "-440",
+    y: "-100",
     scale: "2.4",
     ease: Expo.easeInOut,
     delay: 0.9,
@@ -17,9 +17,9 @@ TweenMax.to(".block_1__mobile", 1.9, {
 });
 // ****************
 TweenMax.to(".block_2", 1.9, {
-    x: "-170",
-    y: "200",
-    scale: "1.2",
+    x: "-300",
+    y: "300",
+    scale: "0.9",
     ease: Expo.easeInOut,
     delay: 0.9,
 });
@@ -33,7 +33,7 @@ TweenMax.to(".block_2__mobile", 1.9, {
 // *****************
 TweenMax.to(".block_3", 1.9, {
     x: "180",
-    y: "-240",
+    y: "-150",
     scale: "1.6",
     ease: Expo.easeInOut,
     delay: 0.9,
@@ -47,7 +47,7 @@ TweenMax.to(".block_3__mobile", 1.9, {
 });
 // *****************
 TweenMax.to(".block_4", 1.9, {
-    x: "240",
+    x: "420",
     y: "280",
     scale: "0.8",
     ease: Expo.easeInOut,
@@ -77,8 +77,8 @@ TweenMax.to(".block_5__mobile", 1.9, {
 });
 // ******************
 TweenMax.to(".block_6", 1.9, {
-    x: "400",
-    y: "-100",
+    x: "500",
+    y: "-200",
     scale: "2.4",
     ease: Expo.easeInOut,
     delay: 0.9,
@@ -92,8 +92,8 @@ TweenMax.to(".block_6__mobile", 1.9, {
 });
 // ******************
 TweenMax.to(".block_7", 1.9, {
-    x: "-320",
-    y: "120",
+    x: "-520",
+    y: "220",
     scale: "1.2",
     ease: Expo.easeInOut,
     delay: 0.9,
@@ -107,8 +107,8 @@ TweenMax.to(".block_7__mobile", 1.9, {
 });
 // ******************
 TweenMax.to(".block_8", 1.9, {
-    x: "20",
-    y: "-120",
+    x: "-120",
+    y: "-220",
     scale: "1.6",
     ease: Expo.easeInOut,
     delay: 0.9,
@@ -137,23 +137,23 @@ TweenMax.to(".block_9__mobile", 1.9, {
 });
 // *****************
 TweenMax.to(".block_10", 1.9, {
-    x: "-600",
-    y: "-150",
+    x: "-500",
+    y: "-300",
     scale: "0.9",
     ease: Expo.easeInOut,
     delay: 0.9,
 });
 TweenMax.to(".block_10__mobile", 1.9, {
-    x: "-10",
-    y: "-10",
+    x: "100",
+    y: "-100",
     scale: "0.8",
     ease: Expo.easeInOut,
     delay: 0.9,
 });
 // *****************
 TweenMax.to(".block_11", 1.9, {
-    x: "-190",
-    y: "180",
+    x: "-290",
+    y: "80",
     scale: "0.5",
     ease: Expo.easeInOut,
     delay: 0.9,
@@ -196,7 +196,7 @@ gsap.from(".image__2", {
     y:80, 
     stagger:0.05, 
     opacity:0, 
-    delay: 2.5,
+    delay: 2.3,
     duration:4.5, 
     ease:"power3.out"
 })
@@ -212,7 +212,7 @@ gsap.from(".image__3", {
     y:80, 
     stagger:0.05, 
     opacity:0, 
-    delay: 2.5,
+    delay: 2.7,
     duration:3.5, 
     ease:"power3.out"
 })
@@ -244,7 +244,7 @@ gsap.from(".image__5", {
     y:80, 
     stagger:0.05, 
     opacity:0, 
-    delay: 2.5,
+    delay: 2.3,
     duration:3.5, 
     ease:"power3.out"
 })
@@ -260,7 +260,7 @@ gsap.from(".image__6", {
     y:80, 
     stagger:0.05, 
     opacity:0, 
-    delay: 2.5,
+    delay: 2.2,
     duration:3.5, 
     ease:"power3.out"
 })

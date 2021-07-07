@@ -45,10 +45,10 @@ body {
 }
 
 .display_blocks{
-    display: flex;
-    margin-left: auto;
-    /* margin-right: auto; */
+    /* display: flex; */
     z-index: 200;
+
+    margin-left: -780px;
 }
 @media screen and (max-width: 599px){
     .display_blocks{
@@ -57,7 +57,8 @@ body {
     .display_blocks__mobile{
         /* display: flex; */
         margin-top: -100px;
-        text-align: center;
+        margin-left: -670px;
+        /* text-align: center; */
         z-index: 250;
     }
     .blocks{
@@ -163,7 +164,7 @@ body {
 	text-transform: uppercase;
 	line-height: 100px;
 	color: #ffffff;
-    z-index: 250;
+    z-index: 350;
 }
 
 .site_menu {
@@ -175,16 +176,7 @@ body {
 	margin-left: 60px;
 }
 
-/* .showreel {
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	padding: 40px;
-	font-family: Arial, Helvetica, sans-serif !important;
-	text-transform: uppercase;
-	color: #dbc4a4;
-	text-decoration: underline;
-} */
+
 
 @media (max-width: 900px) {
 	.navbar {
@@ -445,151 +437,6 @@ body {
 
 
 
-
-
-/* @media screen and (min-width: 769px){
-    .text__front__mobile{
-        display: none;
-    }
-    .text__front__mobile2{
-        display: none;
-    }
-    #front__1__mobile1{
-        display: none;
-    }
-    #front__1__mobile2{
-        display: none;
-    }
-    .text__dev__mobile{
-        display: none;
-    }
-    #dev__1__mobile{
-        display: none;
-    }
-    .text__dev__mobile2{
-        display: none;
-    }
-    #dev__1__mobile2{
-        display: none;
-    }
-    .text__dev__mobile3{
-        display: none;
-    }
-    #dev__1__mobile3{
-        display: none;
-    }
-} */
-/* @media screen and (max-width: 768px){
-    .text__front{
-        display: none;
-    }
-    #front__1{
-        display: none;
-    }
-    .text__dev{
-        display: none;
-    }
-    #dev__1{
-        display: none;
-    }
-    
-
-
-    #front__1__mobile1{
-        font-family: "GRIFTER";
-        font-weight: lighter;
-        font-size: 6.5em; 
-        color: rgb(0, 0, 0);
-        z-index: 2;  
-    }
-    .text__front__mobile{
-        position: absolute;
-        overflow: hidden;
-        width: 100%;
-        height: 109px;
-        z-index: 1;
-    
-        padding-top: 10px;
-        margin-top: 150px;
-        text-align: left;
-    }
-    #front__1__mobile2{
-        font-family: "GRIFTER";
-        font-weight: lighter;
-        font-size: 6.5em; 
-        color: rgb(0, 0, 0);
-        z-index: 2;  
-    }
-    .text__front__mobile2{
-        position: absolute;
-        overflow: hidden;
-        width: 100%;
-        height: 109px;
-        z-index: 1;
-    
-        padding-top: 10px;
-        margin-top: 230px;
-        text-align: right;
-    }
-    
-    #dev__1__mobile{
-        font-family: "GRIFTER";
-        font-weight: lighter;
-        font-size: 6.5em; 
-        color: rgb(0, 0, 0);
-        z-index: 2;  
-    }
-    .text__dev__mobile{
-        position: absolute;
-        overflow: hidden;
-        width: 100%;
-        height: 148px;
-        z-index: 1;
-    
-        padding-top: 50px;
-        margin-top: 270px;
-        text-align: left;
-    }
-    #dev__1__mobile2{
-        font-family: "GRIFTER";
-        font-weight: lighter;
-        font-size: 6.5em; 
-        color: rgb(0, 0, 0);
-        z-index: 2;  
-        
-    }
-    .text__dev__mobile2{
-        position: absolute;
-        overflow: hidden;
-        width: 100%;
-        height: 148px;
-        z-index: 1;
-    
-        padding-top: 50px;
-        margin-top: 350px;
-        text-align: right;
-    }
-    #dev__1__mobile3{
-        font-family: "GRIFTER";
-        font-weight: lighter;
-        font-size: 6.5em; 
-        color: rgb(0, 0, 0);
-        z-index: 2;  
-        
-    }
-    .text__dev__mobile3{
-        position: absolute;
-        overflow: hidden;
-        width: 100%;
-        height: 148px;
-        z-index: 1;
-    
-        padding-top: 50px;
-        margin-top: 430px;
-        text-align: right;
-    }
-} */
-
 /* **************************************************************************************************************************************************************************************** */
 
 .footer{
@@ -616,34 +463,48 @@ body {
 /* IMAGES ***************************************************************************************************************************************************************************************** */
 @media screen and (max-width: 600px){
     .display_images{
-        margin-top: 400px;
+        margin-top: -150px;
+        left: -300px;
+    }
+    .blocks_image{
+        /* display: flex; */
+        width: 500px;
+        height: 150px;
+    }
+}
+@media screen and (min-width: 600px){
+    .display_images{
+        margin-left: -195px;
+    }
+    .blocks_image{
+        display: flex;
     }
 }
 
 .image__1 {
-    background-image: url("./img/flowers-2.jpg");
+    background-image: url("./img-portfolio/chair-1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
     position: relative;
+    border-radius: 20px;
 
-    width: 120px;
+    width: 200px;
     height:100%;
+    margin: 10px;
 
-    margin-left: -950px;
-    /* margin-bottom: -350px; */
-    margin-top: 100px;
+    /* margin-left: -950px;
+    margin-bottom: -450px; */
 } 
 .box_color__1 {
-    /* background-color: #dbc4a4; */
     background-color: #000000;
     overflow: hidden;
-    width: 120px;
-    height: 180px;
+    width: 200px;
+    height: 150px;
 }
 @media screen and (max-width: 600px){
     .image__1 {
-        width: 50px;
+        width: 200px;
         height:100%;
         z-index: 1;
     
@@ -653,36 +514,36 @@ body {
     .box_color__1 {
         background-color: #000000;
         overflow: hidden;
-        width: 50px;
-        height: 80px;
+        width: 200px;
+        height: 150px;
     }
 }
 
 .image__2 {
-    background-image: url("./img/passion1.jpg");
+    background-image: url("./img-portfolio/flower-3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
     position: relative;
-    /* border-radius: 20px; */
+    border-radius: 20px;
 
-    width: 100px;
+    width: 180px;
     height:100%;
-    /* z-index: -1; */
+    margin: 10px;
 
-    margin-top: -80px;
-    margin-left: -50px;
+    /* margin-top: -80px;
+    margin-left: -50px; */
 } 
 .box_color__2 {
     /* background-color: #dbc4a4; */
     background-color: #000000;
     overflow: hidden;
-    width: 100px;
-    height: 70px;
+    width: 180px;
+    height: 150px;
 }
 @media screen and (max-width: 600px){
     .image__2 {
-        width: 110px;
+        width: 200px;
         height:100%;
         z-index: 1;
     
@@ -690,38 +551,36 @@ body {
         margin-top: 0px;
     } 
     .box_color__2 {
-        /* background-color: #dbc4a4; */
         background-color: #000000;
         overflow: hidden;
-        width: 110px;
-        height: 60px;
+        width: 200px;
+        height: 150px;
     }
 }
 
 .image__3 {
-    background-image: url("./img/chair-4.jpg");
+    background-image: url("./img-portfolio/passion-coiffure-0.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
     position: relative;
-    /* border-radius: 20px; */
+    border-radius: 20px;
 
-    width: 100px;
+    width: 180px;
     height:100%;
-    /* z-index: -1; */
+    margin: 10px;
 
-    margin-left: -600px;
+    /* margin-left: -600px; */
 } 
 .box_color__3 {
-    /* background-color: #dbc4a4; */
     background-color: #000000;
     overflow: hidden;
-    width: 100px;
+    width: 180px;
     height: 150px;
 }
 @media screen and (max-width: 600px){
     .image__3 {
-        width: 60px;
+        width: 200px;
         height:100%;
         z-index: 1;
     
@@ -729,152 +588,150 @@ body {
         margin-left: -100px;
     } 
     .box_color__3 {
-        /* background-color: #dbc4a4; */
         background-color: #000000;
         overflow: hidden;
-        width: 60px;
-        height: 80px;
+        width: 200px;
+        height: 150px;
     }
 }
 
 .image__4 {
-    background-image: url("./img/chair.jpg");
+    background-image: url("./img-portfolio/chair-8.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
     position: relative;
-    /* border-radius: 20px; */
+    border-radius: 20px;
 
-    width: 160px;
+    width: 180px;
     height:100%;
-    z-index: -1;
+    margin: 10px;
+    z-index: 1;
 
-    margin-left: -870px;
-    margin-top: 150px;
+    /* margin-left: -870px;
+    margin-top: 150px; */
 } 
 .box_color__4 {
-    /* background-color: #dbc4a4; */
     background-color: #000000;
     overflow: hidden;
-    width: 200px;
-    height: 100px;
+    width: 180px;
+    height: 150px;
 }
 @media screen and (max-width: 600px){
     .image__4 {
-        width: 80px;
+        width: 200px;
         height:100%;
         z-index: 1;
     
         margin-left: 0px;
+        margin-top: 100px;
     } 
     .box_color__4 {
-        /* background-color: #dbc4a4; */
         background-color: #000000;
         overflow: hidden;
-        width: 80px;
-        height: 50px;
+        width: 200px;
+        height: 150px;
     }
 }
 
 .image__5 {
-    background-image: url("./img/flowers-1.jpg");
+    background-image: url("./img-portfolio/flowers-8.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
     position: relative;
-    /* border-radius: 20px; */
+    border-radius: 20px;
 
-    width: 160px;
+    width: 180px;
     height:100%;
+    margin: 10px;
     z-index: 1;
 
-    margin-left: -270px;
-    margin-top: -50px;
+    /* margin-left: -270px;
+    margin-top: -50px; */
 } 
 .box_color__5 {
-    /* background-color: #dbc4a4; */
     background-color: #000000;
     overflow: hidden;
-    width: 200px;
-    height: 100px;
+    width: 180px;
+    height: 150px;
 }
 @media screen and (max-width: 600px){
     .image__5 {
-        width: 100px;
+        width: 200px;
         height: 100%;
     
-        margin-left: -200px;
+        margin-left: 250px;
         margin-top: -150px;
     } 
     .box_color__5 {
         background-color: #000000;
         overflow: hidden;
-        width: 100px;
-        height: 50px;
+        width: 200px;
+        height: 150px;
     }
 }
 
 .image__6 {
-    background-image: url("./img/chair-1.jpg");
+    background-image: url("./img-portfolio/passion-5.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
     position: relative;
-    /* border-radius: 20px; */
+    border-radius: 20px;
 
-    width: 160px;
+    width: 180px;
     height:100%;
+    margin: 10px;
     z-index: 1;
-    /* z-index: 150; */
 
-    margin-left: 80px;
+    /* margin-left: 80px;
     margin-right: 10px;
-    margin-top: -50px;
+    margin-top: -50px; */
 } 
 .box_color__6 {
-    /* background-color: #dbc4a4; */
     background-color: #000000;
     overflow: hidden;
-    width: 200px;
-    height: 100px;
+    width: 180px;
+    height: 150px;
 }
 @media screen and (max-width: 600px){
     .image__6 {
-        width: 60px;
+        width: 200px;
         height: 100%;
     
-        margin-left: 0px;
+        margin-left: 250px;
         margin-top: -50px;
     } 
     .box_color__6 {
         background-color: #000000;
         overflow: hidden;
-        width: 60px;
-        height: 40px;
+        width: 200px;
+        height: 150px;
     }
 }
 
 .image__7 {
-    background-image: url("./img/ben2.jpg");
+    background-image: url("./img/1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
     position: relative;
     /* border-radius: 20px; */
 
-    width: 120px;
+    width: 200px;
     height:100%;
     z-index: 1;
 
-    margin-left: -1100px;
-    margin-bottom: 180px;
+    /* margin-left: -1100px;
+    margin-bottom: 180px; */
 } 
 .box_color__7 {
     /* background-color: #dbc4a4; */
     background-color: #000000;
     overflow: hidden;
-    width: 120px;
-    height: 180px;
+    width: 200px;
+    height: 150px;
 }
 @media screen and (max-width: 600px){
     .image__7 {
