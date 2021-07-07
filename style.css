@@ -16,6 +16,8 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
 
 * {
 	margin: 0;
@@ -62,8 +64,8 @@ body {
         display: none;
     }
     .blocks__mobile {
-        /* font-family: "GRIFTER"; */
-        font-family: "Migha";
+        /* font-family: "Migha"; */
+        font-family: 'Rubik', sans-serif;
         display: flex;
         font-size: 3em;
         color: #222724;
@@ -77,8 +79,8 @@ body {
 }
 
 .blocks {
-    /* font-family: "GRIFTER"; */
-    font-family: "Miracle"; 
+    /* font-family: "Migha";  */
+    font-family: 'Rubik', sans-serif;
 	display: flex;
 	font-size: 4em;
 	color: #222724;
