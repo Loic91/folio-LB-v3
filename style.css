@@ -626,12 +626,12 @@ body {
     background-size: cover;
     overflow: hidden;
     position: relative;
-    /* border-radius: 20px; */
 
     width: 120px;
     height:100%;
 
     margin-left: -950px;
+    /* margin-bottom: -350px; */
     margin-top: 100px;
 } 
 .box_color__1 {
@@ -651,7 +651,6 @@ body {
         margin-top: -400px;
     } 
     .box_color__1 {
-        /* background-color: #dbc4a4; */
         background-color: #000000;
         overflow: hidden;
         width: 50px;
@@ -829,6 +828,7 @@ body {
     /* z-index: 150; */
 
     margin-left: 80px;
+    margin-right: 10px;
     margin-top: -50px;
 } 
 .box_color__6 {
