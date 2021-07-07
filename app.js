@@ -2,38 +2,38 @@
 // MOT ANIMATION ***************************************************************************************************************************************************************************************************************************************************************************************************************
 
 TweenMax.to(".block_1", 1.9, {
-    x: "-440",
-    y: "-100",
+    x: "-400",
+    y: "-160",
     scale: "2.4",
     ease: Expo.easeInOut,
     delay: 0.9,
 });
 TweenMax.to(".block_1__mobile", 1.9, {
-    x: "30",
-    y: "-150",
+    x: "0",
+    y: "-200",
     scale: "2.4",
     ease: Expo.easeInOut,
     delay: 0.9,
 });
 // ****************
 TweenMax.to(".block_2", 1.9, {
-    x: "-300",
-    y: "300",
+    x: "-400",
+    y: "150",
     scale: "0.9",
     ease: Expo.easeInOut,
     delay: 0.9,
 });
 TweenMax.to(".block_2__mobile", 1.9, {
-    x: "230",
-    y: "310",
+    x: "10",
+    y: "300",
     scale: "1.2",
     ease: Expo.easeInOut,
     delay: 0.9,
 });
 // *****************
 TweenMax.to(".block_3", 1.9, {
-    x: "180",
-    y: "-150",
+    x: "-80",
+    y: "-130",
     scale: "1.6",
     ease: Expo.easeInOut,
     delay: 0.9,
@@ -47,22 +47,22 @@ TweenMax.to(".block_3__mobile", 1.9, {
 });
 // *****************
 TweenMax.to(".block_4", 1.9, {
-    x: "420",
-    y: "280",
+    x: "300",
+    y: "320",
     scale: "0.8",
     ease: Expo.easeInOut,
     delay: 0.9,
 });
 TweenMax.to(".block_4__mobile", 1.9, {
     x: "230",
-    y: "130",
+    y: "50",
     scale: "0.8",
     ease: Expo.easeInOut,
     delay: 0.9,
 });
 // ******************
 TweenMax.to(".block_5", 1.9, {
-    x: "370",
+    x: "410",
     y: "180",
     scale: "1.3",
     ease: Expo.easeInOut,
@@ -77,15 +77,15 @@ TweenMax.to(".block_5__mobile", 1.9, {
 });
 // ******************
 TweenMax.to(".block_6", 1.9, {
-    x: "500",
-    y: "-200",
+    x: "170",
+    y: "-150",
     scale: "2.4",
     ease: Expo.easeInOut,
     delay: 0.9,
 });
 TweenMax.to(".block_6__mobile", 1.9, {
-    x: "50",
-    y: "200",
+    x: "60",
+    y: "240",
     scale: "2.4",
     ease: Expo.easeInOut,
     delay: 0.9,
@@ -99,22 +99,22 @@ TweenMax.to(".block_7", 1.9, {
     delay: 0.9,
 });
 TweenMax.to(".block_7__mobile", 1.9, {
-    x: "30",
-    y: "100",
+    x: "-50",
+    y: "130",
     scale: "1.2",
     ease: Expo.easeInOut,
     delay: 0.9,
 });
 // ******************
 TweenMax.to(".block_8", 1.9, {
-    x: "-120",
+    x: "-170",
     y: "-220",
     scale: "1.6",
     ease: Expo.easeInOut,
     delay: 0.9,
 });
 TweenMax.to(".block_8__mobile", 1.9, {
-    x: "190",
+    x: "-90",
     y: "-90",
     scale: "1.6",
     ease: Expo.easeInOut,
@@ -137,14 +137,14 @@ TweenMax.to(".block_9__mobile", 1.9, {
 });
 // *****************
 TweenMax.to(".block_10", 1.9, {
-    x: "-500",
-    y: "-300",
+    x: "-800",
+    y: "-200",
     scale: "0.9",
     ease: Expo.easeInOut,
     delay: 0.9,
 });
 TweenMax.to(".block_10__mobile", 1.9, {
-    x: "100",
+    x: "30",
     y: "-100",
     scale: "0.8",
     ease: Expo.easeInOut,
@@ -159,15 +159,12 @@ TweenMax.to(".block_11", 1.9, {
     delay: 0.9,
 });
 TweenMax.to(".block_11__mobile", 1.9, {
-    x: "-120",
-    y: "-80",
+    x: "-240",
+    y: "-20",
     scale: "0.5",
     ease: Expo.easeInOut,
     delay: 0.9,
 });
-
-
-
 
 
 
