@@ -50,27 +50,70 @@ body {
 }
 
 .block_5__mobile, .block_6__mobile, .block_7__mobile, .block_8__mobile, .block_9__mobile, .block_10__mobile, .block_11__mobile{
-    /* font-style: italic; */
     color: #1b2531;
 }
-.display_blocks{
-    /* display: flex; */
-    z-index: 200;
-
-    margin-left: -800px;
+.block_5__tab, .block_6__tab, .block_7__tab, .block_8__tab, .block_9__tab, .block_10__tab, .block_11__tab{
+    color: #1b2531;
+}
+@media screen and (min-width: 1150px){
+    .display_blocks{
+        z-index: 200;
+        margin-left: -800px;
+    }
+    .blocks {
+        font-family: 'Rubik', sans-serif;
+        display: flex;
+        font-size: 4em;
+        color: #161a1f;
+        margin: 10px;
+        z-index: 99;
+    }
+}
+@media screen and (min-width: 600px){
+    .display_blocks__mobile{
+        display: none;
+    }
+    .display_blocks{
+        display: none;
+    }
+    .display_blocks__tab{
+        display: flex;
+        margin-top: 0px;
+        margin-left: -670px;
+        z-index: 200;
+    }
+    .blocks{
+        display: none;
+    }
+    .blocks__tab {
+        font-family: 'Rubik', sans-serif;
+        display: flex;
+        font-size: 3em;
+        color: #161a1f;
+        margin: 10px;
+    }
+    .block{
+        font-size: 1.9em;
+    }
+    
 }
 @media screen and (max-width: 599px){
     .display_blocks{
+        display: none;
+    }
+    .display_blocks__tab{
         display: none;
     }
     .display_blocks__mobile{
         /* display: flex; */
         margin-top: -100px;
         margin-left: -570px;
-        /* text-align: center; */
         z-index: 250;
     }
     .blocks{
+        display: none;
+    }
+    .blocks__tab{
         display: none;
     }
     .blocks__mobile {
@@ -82,21 +125,9 @@ body {
         margin: 10px;
     }
 }
-@media screen and (min-width: 600px){
-    .display_blocks__mobile{
-        display: none;
-    }
-}
 
-.blocks {
-    /* font-family: "Migha";  */
-    font-family: 'Rubik', sans-serif;
-	display: flex;
-	font-size: 4em;
-	color: #161a1f;
-    margin: 10px;
-    z-index: 99;
-}
+
+
 
 /* ****************************************************************** */
 
@@ -485,9 +516,17 @@ body {
         height: 150px;
     }
 }
-@media screen and (min-width: 600px){
+@media screen and (min-width: 601px){
     .display_images{
-        margin-left: 105px;
+        margin-left: -65px;
+    }
+    .blocks_image{
+        display: flex;
+    }
+}
+@media screen and (min-width: 1050px){
+    .display_images{
+        margin-left: 600px;
     }
     .blocks_image{
         display: flex;

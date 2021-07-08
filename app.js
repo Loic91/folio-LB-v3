@@ -8,6 +8,13 @@ TweenMax.to(".block_1", 1.9, {
     ease: Expo.easeInOut,
     delay: 0.9,
 });
+TweenMax.to(".block_1__tab", 1.9, {
+    x: "-300",
+    y: "-160",
+    scale: "2.4",
+    ease: Expo.easeInOut,
+    delay: 0.9,
+});
 TweenMax.to(".block_1__mobile", 1.9, {
     x: "20",
     y: "-200",
@@ -23,6 +30,13 @@ TweenMax.to(".block_2", 1.9, {
     ease: Expo.easeInOut,
     delay: 0.9,
 });
+TweenMax.to(".block_2__tab", 1.9, {
+    x: "-300",
+    y: "250",
+    scale: "0.9",
+    ease: Expo.easeInOut,
+    delay: 0.9,
+});
 TweenMax.to(".block_2__mobile", 1.9, {
     x: "10",
     y: "250",
@@ -32,6 +46,13 @@ TweenMax.to(".block_2__mobile", 1.9, {
 });
 // *****************
 TweenMax.to(".block_3", 1.9, {
+    x: "-80",
+    y: "-130",
+    scale: "1.6",
+    ease: Expo.easeInOut,
+    delay: 0.9,
+});
+TweenMax.to(".block_3__tab", 1.9, {
     x: "-80",
     y: "-130",
     scale: "1.6",
@@ -53,6 +74,13 @@ TweenMax.to(".block_4", 1.9, {
     ease: Expo.easeInOut,
     delay: 0.9,
 });
+TweenMax.to(".block_4__tab", 1.9, {
+    x: "-300",
+    y: "120",
+    scale: "0.7",
+    ease: Expo.easeInOut,
+    delay: 0.9,
+});
 TweenMax.to(".block_4__mobile", 1.9, {
     x: "250",
     y: "50",
@@ -68,6 +96,13 @@ TweenMax.to(".block_5", 1.9, {
     ease: Expo.easeInOut,
     delay: 0.9,
 });
+TweenMax.to(".block_5__tab", 1.9, {
+    x: "330",
+    y: "180",
+    scale: "1.3",
+    ease: Expo.easeInOut,
+    delay: 0.9,
+});
 TweenMax.to(".block_5__mobile", 1.9, {
     x: "180",
     y: "140",
@@ -77,6 +112,13 @@ TweenMax.to(".block_5__mobile", 1.9, {
 });
 // ******************
 TweenMax.to(".block_6", 1.9, {
+    x: "170",
+    y: "-150",
+    scale: "2.4",
+    ease: Expo.easeInOut,
+    delay: 0.9,
+});
+TweenMax.to(".block_6__tab", 1.9, {
     x: "170",
     y: "-150",
     scale: "2.4",
@@ -98,6 +140,13 @@ TweenMax.to(".block_7", 1.9, {
     ease: Expo.easeInOut,
     delay: 0.9,
 });
+TweenMax.to(".block_7__tab", 1.9, {
+    x: "-150",
+    y: "230",
+    scale: "1.2",
+    ease: Expo.easeInOut,
+    delay: 0.9,
+});
 TweenMax.to(".block_7__mobile", 1.9, {
     x: "-50",
     y: "130",
@@ -109,6 +158,13 @@ TweenMax.to(".block_7__mobile", 1.9, {
 TweenMax.to(".block_8", 1.9, {
     x: "-170",
     y: "-220",
+    scale: "1.6",
+    ease: Expo.easeInOut,
+    delay: 0.9,
+});
+TweenMax.to(".block_8__tab", 1.9, {
+    x: "-90",
+    y: "-90",
     scale: "1.6",
     ease: Expo.easeInOut,
     delay: 0.9,
@@ -128,6 +184,13 @@ TweenMax.to(".block_9", 1.9, {
     ease: Expo.easeInOut,
     delay: 0.9,
 });
+TweenMax.to(".block_9__tab", 1.9, {
+    x: "-350",
+    y: "170",
+    scale: "0.5",
+    ease: Expo.easeInOut,
+    delay: 0.9,
+});
 TweenMax.to(".block_9__mobile", 1.9, {
     x: "-100",
     y: "50",
@@ -143,6 +206,13 @@ TweenMax.to(".block_10", 1.9, {
     ease: Expo.easeInOut,
     delay: 0.9,
 });
+TweenMax.to(".block_10__tab", 1.9, {
+    x: "-30",
+    y: "100",
+    scale: "0.8",
+    ease: Expo.easeInOut,
+    delay: 0.9,
+});
 TweenMax.to(".block_10__mobile", 1.9, {
     x: "30",
     y: "-100",
@@ -154,6 +224,13 @@ TweenMax.to(".block_10__mobile", 1.9, {
 TweenMax.to(".block_11", 1.9, {
     x: "-290",
     y: "80",
+    scale: "0.5",
+    ease: Expo.easeInOut,
+    delay: 0.9,
+});
+TweenMax.to(".block_11__tab", 1.9, {
+    x: "-240",
+    y: "200",
     scale: "0.5",
     ease: Expo.easeInOut,
     delay: 0.9,
