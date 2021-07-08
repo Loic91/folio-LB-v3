@@ -374,7 +374,7 @@ TweenMax.from("#dev__1", 2.6, {
     opacity: 0,
     y: '40%',
     ease: Expo.easeInOut,
-    delay: 6.9,
+    delay: 5.9,
 });
 // ***Disparition du mot
 // TweenMax.to("#dev__1", 2.6, {
@@ -389,7 +389,7 @@ TweenMax.from("#front__1", 2.6, {
     opacity: 0,
     y: '40%',
     ease: Expo.easeInOut,
-    delay: 7.3,
+    delay: 6.3,
 });
 // ***Disparition du mot
 // TweenMax.to("#front__1", 2.6, {
@@ -403,13 +403,13 @@ TweenMax.from("#base__1", 2.6, {
     opacity: 0,
     y: '40%',
     ease: Expo.easeInOut,
-    delay: 7.8,
+    delay: 6.8,
 });
 TweenMax.from("#paris__1", 2.6, {
     opacity: 0,
     y: '40%',
     ease: Expo.easeInOut,
-    delay: 8.2,
+    delay: 7.2,
 });
 // ******
 
