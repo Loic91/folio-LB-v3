@@ -1,7 +1,7 @@
 
 // MOT ANIMATION ***************************************************************************************************************************************************************************************************************************************************************************************************************
 
-TweenMax.to(".block_1", 1.9, {
+TweenMax.to(".block_1__xl", 1.9, {
     x: "-300",
     y: "-160",
     scale: "2.4",
@@ -23,7 +23,7 @@ TweenMax.to(".block_1__mobile", 1.9, {
     delay: 0.9,
 });
 // ****************
-TweenMax.to(".block_2", 1.9, {
+TweenMax.to(".block_2__xl", 1.9, {
     x: "-400",
     y: "150",
     scale: "0.9",
@@ -45,7 +45,7 @@ TweenMax.to(".block_2__mobile", 1.9, {
     delay: 0.9,
 });
 // *****************
-TweenMax.to(".block_3", 1.9, {
+TweenMax.to(".block_3__xl", 1.9, {
     x: "-80",
     y: "-130",
     scale: "1.6",
@@ -67,7 +67,7 @@ TweenMax.to(".block_3__mobile", 1.9, {
     delay: 0.9,
 });
 // *****************
-TweenMax.to(".block_4", 1.9, {
+TweenMax.to(".block_4__xl", 1.9, {
     x: "300",
     y: "320",
     scale: "0.8",
@@ -89,7 +89,7 @@ TweenMax.to(".block_4__mobile", 1.9, {
     delay: 0.9,
 });
 // ******************
-TweenMax.to(".block_5", 1.9, {
+TweenMax.to(".block_5__xl", 1.9, {
     x: "430",
     y: "180",
     scale: "1.3",
@@ -111,7 +111,7 @@ TweenMax.to(".block_5__mobile", 1.9, {
     delay: 0.9,
 });
 // ******************
-TweenMax.to(".block_6", 1.9, {
+TweenMax.to(".block_6__xl", 1.9, {
     x: "170",
     y: "-150",
     scale: "2.4",
@@ -133,7 +133,7 @@ TweenMax.to(".block_6__mobile", 1.9, {
     delay: 0.9,
 });
 // ******************
-TweenMax.to(".block_7", 1.9, {
+TweenMax.to(".block_7__xl", 1.9, {
     x: "-520",
     y: "220",
     scale: "1.2",
@@ -155,7 +155,7 @@ TweenMax.to(".block_7__mobile", 1.9, {
     delay: 0.9,
 });
 // ******************
-TweenMax.to(".block_8", 1.9, {
+TweenMax.to(".block_8__xl", 1.9, {
     x: "-170",
     y: "-220",
     scale: "1.6",
@@ -177,7 +177,7 @@ TweenMax.to(".block_8__mobile", 1.9, {
     delay: 0.9,
 });
 // *****************
-TweenMax.to(".block_9", 1.9, {
+TweenMax.to(".block_9__xl", 1.9, {
     x: "-300",
     y: "250",
     scale: "0.5",
@@ -199,7 +199,7 @@ TweenMax.to(".block_9__mobile", 1.9, {
     delay: 0.9,
 });
 // *****************
-TweenMax.to(".block_10", 1.9, {
+TweenMax.to(".block_10__xl", 1.9, {
     x: "-800",
     y: "-200",
     scale: "0.9",
@@ -221,7 +221,7 @@ TweenMax.to(".block_10__mobile", 1.9, {
     delay: 0.9,
 });
 // *****************
-TweenMax.to(".block_11", 1.9, {
+TweenMax.to(".block_11__xl", 1.9, {
     x: "-290",
     y: "80",
     scale: "0.5",

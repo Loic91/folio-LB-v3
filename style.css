@@ -44,7 +44,7 @@ body {
 	background: #000000;
 }
  /* NOM TRANSITION *************************************************************************************************************************************************************************************************************************************************************************************************** */
-.block_5, .block_6, .block_7, .block_8, .block_9, .block_10, .block_11{
+.block_5__xl, .block_6__xl, .block_7__xl, .block_8__xl, .block_9__xl, .block_10__xl, .block_11__xl{
     font-style: italic;
     color: #1b2531;
 }
@@ -55,12 +55,19 @@ body {
 .block_5__tab, .block_6__tab, .block_7__tab, .block_8__tab, .block_9__tab, .block_10__tab, .block_11__tab{
     color: #1b2531;
 }
-@media screen and (min-width: 1150px){
-    .display_blocks{
-        z-index: 200;
-        margin-left: -800px;
+
+@media screen and (min-width: 1050px){  
+    .block_1__tab, .block_2__tab, .block_3__tab, .block_4__tab, .block_5__tab, .block_6__tab, .block_7__tab, .block_8__tab, .block_9__tab, .block_10__tab, .block_11__tab{
+        display: none;
     }
-    .blocks {
+    .display_blocks__mobile{
+        display: none;
+    }
+    .display_blocks__xl{
+        z-index: 200;
+        margin-left: -750px;
+    }
+    .blocks__xl {
         font-family: 'Rubik', sans-serif;
         display: flex;
         font-size: 4em;
@@ -74,9 +81,9 @@ body {
     .display_blocks__mobile{
         display: none;
     }
-    .display_blocks{
+    /* .display_blocks{
         display: none;
-    }
+    } */
     .display_blocks__tab{
         display: flex;
         margin-top: 0px;
@@ -96,7 +103,6 @@ body {
     .block{
         font-size: 1.9em;
     }
-    
 }
 
 @media screen and (min-width: 900px){
@@ -124,9 +130,11 @@ body {
     }
     .block{
         font-size: 1.9em;
-    }
-    
+    }  
 }
+
+
+
 @media screen and (max-width: 599px){
     .display_blocks{
         display: none;
@@ -556,7 +564,7 @@ body {
 }
 @media screen and (min-width: 900px){
     .display_images{
-        margin-left: -65px;
+        margin-left: -40px;
     }
     .blocks_image{
         display: flex;
@@ -564,7 +572,7 @@ body {
 }
 @media screen and (min-width: 1050px){
     .display_images{
-        margin-left: 600px;
+        margin-left: -600px;
     }
     .blocks_image{
         display: flex;
